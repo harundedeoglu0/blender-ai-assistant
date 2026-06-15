@@ -1,0 +1,5720 @@
+Blender:
+Blender is a free and open-source 3D creation software.
+
+Workspace:
+A workspace is a predefined layout designed for specific tasks.
+
+Scene:
+A scene contains objects, lights, cameras and settings.
+
+Object:
+An object is any item that exists within a Blender scene.
+
+Mesh:
+A mesh is a 3D object made of vertices, edges and faces.
+
+Vertex:
+A vertex is a single point in 3D space.
+
+Edge:
+An edge connects two vertices together.
+
+Face:
+A face is a polygon formed by connected edges.
+
+Collection:
+A collection is used to organize objects in a scene.
+
+Outliner:
+The Outliner displays all scene elements hierarchically.
+
+Viewport:
+The viewport is the area where 3D content is displayed.
+
+Navigation:
+Navigation allows users to move around the 3D viewport.
+
+Orbit:
+Orbit rotates the camera around a point of interest.
+
+Pan:
+Pan moves the viewport horizontally and vertically.
+
+Zoom:
+Zoom changes the viewing distance within the viewport.
+
+Transform:
+Transform refers to moving, rotating or scaling objects.
+
+Location:
+Location defines an object's position in 3D space.
+
+Rotation:
+Rotation defines an object's orientation.
+
+Scale:
+Scale determines the size of an object.
+
+Origin:
+The origin is the reference point of an object.
+
+Cursor:
+The 3D Cursor is used for placement and transformation.
+
+Edit Mode:
+Edit Mode is used to modify mesh geometry.
+
+Object Mode:
+Object Mode is used to manipulate entire objects.
+
+Sculpt Mode:
+Sculpt Mode allows digital sculpting on meshes.
+
+Vertex Paint:
+Vertex Paint applies colors directly to vertices.
+
+Texture Paint:
+Texture Paint allows painting directly on textures.
+
+Shade Smooth:
+Shade Smooth smooths the appearance of mesh surfaces.
+
+Shade Flat:
+Shade Flat displays hard polygonal shading.
+
+Subdivision Surface:
+Subdivision Surface increases mesh smoothness.
+
+Mirror Modifier:
+Mirror Modifier creates symmetrical geometry.
+
+Array Modifier:
+Array Modifier duplicates geometry in patterns.
+
+Boolean Modifier:
+Boolean Modifier combines or cuts mesh objects.
+
+Solidify Modifier:
+Solidify Modifier adds thickness to geometry.
+
+Bevel Modifier:
+Bevel Modifier rounds sharp edges.
+
+Decimate Modifier:
+Decimate Modifier reduces polygon count.
+
+Remesh Modifier:
+Remesh Modifier rebuilds mesh topology.
+
+Geometry Nodes:
+Geometry Nodes enable procedural modeling workflows.
+
+Node:
+A node performs a specific operation in a node system.
+
+Material:
+A material defines the appearance of a surface.
+
+Shader:
+A shader controls how surfaces react to light.
+
+Principled BSDF:
+Principled BSDF is Blender's primary physically based shader.
+
+Texture:
+A texture provides surface detail information.
+
+UV Mapping:
+UV Mapping projects a 2D texture onto a 3D model.
+
+UV Island:
+A UV Island is a connected section of UV coordinates.
+
+UV Editor:
+The UV Editor is used for UV layout editing.
+
+Image Texture:
+An Image Texture node loads image files into materials.
+
+Normal Map:
+A Normal Map simulates surface details without extra geometry.
+
+Roughness:
+Roughness controls surface reflectivity.
+
+Metallic:
+Metallic defines whether a surface behaves like metal.
+
+Emission:
+Emission causes a material to emit light.
+
+Camera:
+A camera captures rendered images of a scene.
+
+Focal Length:
+Focal Length determines camera zoom characteristics.
+
+Depth of Field:
+Depth of Field creates focus blur effects.
+
+Light:
+A light illuminates objects in a scene.
+
+Point Light:
+A Point Light emits light in all directions.
+
+Sun Light:
+A Sun Light simulates sunlight.
+
+Spot Light:
+A Spot Light emits light in a cone shape.
+
+Area Light:
+An Area Light emits light from a surface area.
+
+HDRI:
+HDRI provides realistic environmental lighting.
+
+World:
+The World controls background and environment settings.
+
+Render:
+Rendering generates the final image or animation.
+
+Cycles:
+Cycles is Blender's physically based render engine.
+
+Eevee:
+Eevee is Blender's real-time render engine.
+
+Sampling:
+Sampling determines render quality and noise levels.
+
+Denoising:
+Denoising removes noise from rendered images.
+
+Animation:
+Animation creates movement over time.
+
+Keyframe:
+A keyframe stores a value at a specific frame.
+
+Timeline:
+The Timeline displays animation frames.
+
+Graph Editor:
+The Graph Editor controls animation curves.
+
+Dope Sheet:
+The Dope Sheet organizes animation keyframes.
+
+Interpolation:
+Interpolation defines motion between keyframes.
+
+Armature:
+An armature is used for rigging and animation.
+
+Bone:
+A bone is the fundamental element of an armature.
+
+Weight Paint:
+Weight Paint defines bone influence over a mesh.
+
+Inverse Kinematics:
+Inverse Kinematics controls a chain through an end effector.
+
+Forward Kinematics:
+Forward Kinematics rotates bones individually.
+
+Constraint:
+A constraint automates object or bone behavior.
+
+Driver:
+A driver links one property to another.
+
+Shape Key:
+A Shape Key stores mesh deformations.
+
+Rigify:
+Rigify is Blender's automatic rigging add-on.
+
+Particle System:
+A Particle System generates procedural particles.
+
+Hair System:
+A Hair System creates strands for fur or hair.
+
+Cloth Simulation:
+Cloth Simulation replicates fabric behavior.
+
+Rigid Body:
+Rigid Body Simulation handles solid object physics.
+
+Soft Body:
+Soft Body Simulation creates flexible object behavior.
+
+Fluid Simulation:
+Fluid Simulation generates liquid effects.
+
+Smoke Simulation:
+Smoke Simulation creates smoke and fire effects.
+
+Collision:
+Collision allows objects to interact physically.
+
+Force Field:
+A Force Field influences simulated objects.
+
+Compositor:
+The Compositor processes rendered images.
+
+Render Layer:
+A Render Layer separates rendering elements.
+
+Grease Pencil:
+Grease Pencil enables 2D drawing and animation.
+
+Asset Browser:
+The Asset Browser manages reusable assets.
+
+Library Override:
+Library Override allows editing linked assets.
+
+Addon:
+An Addon extends Blender's functionality.
+
+Python API:
+The Python API enables scripting and automation.
+
+Operator:
+An operator performs a specific action in Blender.
+
+Preferences:
+Preferences store user settings and configurations.
+
+Workspace Layout:
+Workspace Layout defines panel arrangements for tasks.
+
+Snap:
+Snap allows transformations to align with specific targets.
+
+Increment Snap:
+Increment Snap aligns transformations to grid increments.
+
+Vertex Snap:
+Vertex Snap aligns objects to vertices.
+
+Edge Snap:
+Edge Snap aligns objects to edges.
+
+Face Snap:
+Face Snap aligns objects to faces.
+
+Proportional Editing:
+Proportional Editing affects nearby geometry during transformations.
+
+Falloff:
+Falloff determines how influence decreases with distance.
+
+Loop Cut:
+Loop Cut inserts edge loops into a mesh.
+
+Knife Tool:
+Knife Tool cuts geometry manually.
+
+Inset Faces:
+Inset Faces creates new faces inside existing faces.
+
+Extrude:
+Extrude extends geometry from selected elements.
+
+Bevel:
+Bevel creates rounded or chamfered edges.
+
+Bridge Edge Loops:
+Bridge Edge Loops connects separate edge loops.
+
+Grid Fill:
+Grid Fill creates quad topology between boundaries.
+
+Merge:
+Merge combines vertices into a single vertex.
+
+Dissolve:
+Dissolve removes geometry while preserving shape.
+
+Separate:
+Separate creates a new object from selected geometry.
+
+Join:
+Join combines multiple objects into one.
+
+Retopology:
+Retopology creates optimized mesh topology.
+
+Quad:
+A quad is a face consisting of four vertices.
+
+Triangle:
+A triangle is a face consisting of three vertices.
+
+N-Gon:
+An N-Gon is a face with more than four vertices.
+
+Edge Loop:
+An Edge Loop is a continuous chain of connected edges.
+
+Edge Ring:
+An Edge Ring runs across parallel edge loops.
+
+Pole:
+A pole is a vertex connected to more than four edges.
+
+Topology:
+Topology describes the structure of a mesh.
+
+Manifold Mesh:
+A manifold mesh has proper enclosed geometry.
+
+Non-Manifold:
+Non-Manifold geometry can cause modeling issues.
+
+Shrinkwrap Modifier:
+Shrinkwrap projects geometry onto another surface.
+
+Multiresolution Modifier:
+Multiresolution supports sculpting across detail levels.
+
+Dynamic Topology:
+Dynamic Topology adds geometry while sculpting.
+
+Voxel Remesh:
+Voxel Remesh rebuilds geometry using voxels.
+
+Mask:
+A mask protects sculpted areas from modification.
+
+Face Set:
+A Face Set groups faces during sculpting.
+
+Grab Brush:
+Grab Brush moves large portions of geometry.
+
+Clay Brush:
+Clay Brush adds material like digital clay.
+
+Smooth Brush:
+Smooth Brush relaxes surface irregularities.
+
+Crease Brush:
+Crease Brush creates sharp grooves.
+
+Inflate Brush:
+Inflate Brush expands mesh surfaces.
+
+Pinch Brush:
+Pinch Brush pulls vertices together.
+
+Pose Brush:
+Pose Brush bends geometry like a rig.
+
+Sculpt Vertex Colors:
+Sculpt Vertex Colors paint directly onto vertices.
+
+Texture Slot:
+A Texture Slot stores texture assignments.
+
+UV Seam:
+A UV Seam marks where a mesh unfolds.
+
+Smart UV Project:
+Smart UV Project automatically unwraps geometry.
+
+Lightmap UV:
+A Lightmap UV is optimized for baked lighting.
+
+Texture Atlas:
+A Texture Atlas combines multiple textures.
+
+Bake:
+Bake transfers information into textures.
+
+Normal Bake:
+Normal Bake generates normal map textures.
+
+AO Bake:
+AO Bake creates ambient occlusion maps.
+
+Emission Bake:
+Emission Bake records emissive lighting.
+
+Diffuse Bake:
+Diffuse Bake captures surface color information.
+
+Alpha Channel:
+An Alpha Channel stores transparency information.
+
+Transparency:
+Transparency allows light to pass through surfaces.
+
+Glass Shader:
+Glass Shader simulates transparent materials.
+
+Refraction:
+Refraction bends light through transparent objects.
+
+Subsurface Scattering:
+Subsurface Scattering simulates light penetration.
+
+Anisotropic:
+Anisotropic controls directional reflections.
+
+Clearcoat:
+Clearcoat adds an extra reflective layer.
+
+Bump Map:
+A Bump Map simulates surface details.
+
+Displacement:
+Displacement physically alters geometry.
+
+Procedural Texture:
+A Procedural Texture is generated mathematically.
+
+Noise Texture:
+Noise Texture creates random patterns.
+
+Voronoi Texture:
+Voronoi Texture generates cell-like patterns.
+
+Musgrave Texture:
+Musgrave Texture creates terrain-like details.
+
+Color Ramp:
+Color Ramp remaps values into colors.
+
+Mix Node:
+Mix Node combines multiple inputs.
+
+Mapping Node:
+Mapping Node transforms texture coordinates.
+
+Texture Coordinate:
+Texture Coordinate provides mapping information.
+
+HDR Rendering:
+HDR Rendering stores a wider brightness range.
+
+Render Pass:
+A Render Pass stores specific render data.
+
+Z Pass:
+Z Pass stores depth information.
+
+Cryptomatte:
+Cryptomatte creates object selection masks.
+
+Shadow Catcher:
+Shadow Catcher captures shadows on invisible surfaces.
+
+Motion Blur:
+Motion Blur simulates movement during exposure.
+
+Bloom:
+Bloom adds glow around bright areas.
+
+Screen Space Reflections:
+Screen Space Reflections calculate reflections in Eevee.
+
+Ambient Occlusion:
+Ambient Occlusion simulates contact shadows.
+
+Volumetrics:
+Volumetrics simulate atmospheric effects.
+
+Volume Scatter:
+Volume Scatter creates fog-like effects.
+
+Volume Absorption:
+Volume Absorption darkens light passing through volume.
+
+Keyframe Handle:
+A Keyframe Handle controls animation curves.
+
+Bezier Interpolation:
+Bezier Interpolation creates smooth motion.
+
+Linear Interpolation:
+Linear Interpolation creates constant motion speed.
+
+Constant Interpolation:
+Constant Interpolation creates step-like animation.
+
+Action:
+An Action stores animation data.
+
+NLA Strip:
+An NLA Strip contains reusable animation clips.
+
+Marker:
+A Marker identifies important timeline positions.
+
+Bone Constraint:
+A Bone Constraint controls bone behavior.
+
+Custom Property:
+A Custom Property stores user-defined values.
+
+Driver Variable:
+A Driver Variable provides input for drivers.
+
+FK Rig:
+An FK Rig uses hierarchical bone rotations.
+
+IK Rig:
+An IK Rig uses end-effector control systems.
+
+Animation Layer:
+An Animation Layer combines multiple animations.
+
+Pose Library:
+A Pose Library stores reusable character poses.
+
+Snap:
+Snap allows transformations to align with specific targets.
+
+Increment Snap:
+Increment Snap aligns transformations to grid increments.
+
+Vertex Snap:
+Vertex Snap aligns objects to vertices.
+
+Edge Snap:
+Edge Snap aligns objects to edges.
+
+Face Snap:
+Face Snap aligns objects to faces.
+
+Proportional Editing:
+Proportional Editing affects nearby geometry during transformations.
+
+Falloff:
+Falloff determines how influence decreases with distance.
+
+Loop Cut:
+Loop Cut inserts edge loops into a mesh.
+
+Knife Tool:
+Knife Tool cuts geometry manually.
+
+Inset Faces:
+Inset Faces creates new faces inside existing faces.
+
+Extrude:
+Extrude extends geometry from selected elements.
+
+Bevel:
+Bevel creates rounded or chamfered edges.
+
+Bridge Edge Loops:
+Bridge Edge Loops connects separate edge loops.
+
+Grid Fill:
+Grid Fill creates quad topology between boundaries.
+
+Merge:
+Merge combines vertices into a single vertex.
+
+Dissolve:
+Dissolve removes geometry while preserving shape.
+
+Separate:
+Separate creates a new object from selected geometry.
+
+Join:
+Join combines multiple objects into one.
+
+Retopology:
+Retopology creates optimized mesh topology.
+
+Quad:
+A quad is a face consisting of four vertices.
+
+Triangle:
+A triangle is a face consisting of three vertices.
+
+N-Gon:
+An N-Gon is a face with more than four vertices.
+
+Edge Loop:
+An Edge Loop is a continuous chain of connected edges.
+
+Edge Ring:
+An Edge Ring runs across parallel edge loops.
+
+Pole:
+A pole is a vertex connected to more than four edges.
+
+Topology:
+Topology describes the structure of a mesh.
+
+Manifold Mesh:
+A manifold mesh has proper enclosed geometry.
+
+Non-Manifold:
+Non-Manifold geometry can cause modeling issues.
+
+Shrinkwrap Modifier:
+Shrinkwrap projects geometry onto another surface.
+
+Multiresolution Modifier:
+Multiresolution supports sculpting across detail levels.
+
+Dynamic Topology:
+Dynamic Topology adds geometry while sculpting.
+
+Voxel Remesh:
+Voxel Remesh rebuilds geometry using voxels.
+
+Mask:
+A mask protects sculpted areas from modification.
+
+Face Set:
+A Face Set groups faces during sculpting.
+
+Grab Brush:
+Grab Brush moves large portions of geometry.
+
+Clay Brush:
+Clay Brush adds material like digital clay.
+
+Smooth Brush:
+Smooth Brush relaxes surface irregularities.
+
+Crease Brush:
+Crease Brush creates sharp grooves.
+
+Inflate Brush:
+Inflate Brush expands mesh surfaces.
+
+Pinch Brush:
+Pinch Brush pulls vertices together.
+
+Pose Brush:
+Pose Brush bends geometry like a rig.
+
+Sculpt Vertex Colors:
+Sculpt Vertex Colors paint directly onto vertices.
+
+Texture Slot:
+A Texture Slot stores texture assignments.
+
+UV Seam:
+A UV Seam marks where a mesh unfolds.
+
+Smart UV Project:
+Smart UV Project automatically unwraps geometry.
+
+Lightmap UV:
+A Lightmap UV is optimized for baked lighting.
+
+Texture Atlas:
+A Texture Atlas combines multiple textures.
+
+Bake:
+Bake transfers information into textures.
+
+Normal Bake:
+Normal Bake generates normal map textures.
+
+AO Bake:
+AO Bake creates ambient occlusion maps.
+
+Emission Bake:
+Emission Bake records emissive lighting.
+
+Diffuse Bake:
+Diffuse Bake captures surface color information.
+
+Alpha Channel:
+An Alpha Channel stores transparency information.
+
+Transparency:
+Transparency allows light to pass through surfaces.
+
+Glass Shader:
+Glass Shader simulates transparent materials.
+
+Refraction:
+Refraction bends light through transparent objects.
+
+Subsurface Scattering:
+Subsurface Scattering simulates light penetration.
+
+Anisotropic:
+Anisotropic controls directional reflections.
+
+Clearcoat:
+Clearcoat adds an extra reflective layer.
+
+Bump Map:
+A Bump Map simulates surface details.
+
+Displacement:
+Displacement physically alters geometry.
+
+Procedural Texture:
+A Procedural Texture is generated mathematically.
+
+Noise Texture:
+Noise Texture creates random patterns.
+
+Voronoi Texture:
+Voronoi Texture generates cell-like patterns.
+
+Musgrave Texture:
+Musgrave Texture creates terrain-like details.
+
+Color Ramp:
+Color Ramp remaps values into colors.
+
+Mix Node:
+Mix Node combines multiple inputs.
+
+Mapping Node:
+Mapping Node transforms texture coordinates.
+
+Texture Coordinate:
+Texture Coordinate provides mapping information.
+
+HDR Rendering:
+HDR Rendering stores a wider brightness range.
+
+Render Pass:
+A Render Pass stores specific render data.
+
+Z Pass:
+Z Pass stores depth information.
+
+Cryptomatte:
+Cryptomatte creates object selection masks.
+
+Shadow Catcher:
+Shadow Catcher captures shadows on invisible surfaces.
+
+Motion Blur:
+Motion Blur simulates movement during exposure.
+
+Bloom:
+Bloom adds glow around bright areas.
+
+Screen Space Reflections:
+Screen Space Reflections calculate reflections in Eevee.
+
+Ambient Occlusion:
+Ambient Occlusion simulates contact shadows.
+
+Volumetrics:
+Volumetrics simulate atmospheric effects.
+
+Volume Scatter:
+Volume Scatter creates fog-like effects.
+
+Volume Absorption:
+Volume Absorption darkens light passing through volume.
+
+Keyframe Handle:
+A Keyframe Handle controls animation curves.
+
+Bezier Interpolation:
+Bezier Interpolation creates smooth motion.
+
+Linear Interpolation:
+Linear Interpolation creates constant motion speed.
+
+Constant Interpolation:
+Constant Interpolation creates step-like animation.
+
+Action:
+An Action stores animation data.
+
+NLA Strip:
+An NLA Strip contains reusable animation clips.
+
+Marker:
+A Marker identifies important timeline positions.
+
+Bone Constraint:
+A Bone Constraint controls bone behavior.
+
+Custom Property:
+A Custom Property stores user-defined values.
+
+Driver Variable:
+A Driver Variable provides input for drivers.
+
+FK Rig:
+An FK Rig uses hierarchical bone rotations.
+
+IK Rig:
+An IK Rig uses end-effector control systems.
+
+Animation Layer:
+An Animation Layer combines multiple animations.
+
+Pose Library:
+A Pose Library stores reusable character poses.
+
+Asset:
+An asset is any reusable resource such as a model, material, or animation.
+
+Asset Library:
+An Asset Library stores reusable Blender assets.
+
+Linked Data:
+Linked Data references external Blender data without duplication.
+
+Append:
+Append imports data from another Blender file.
+
+Link:
+Link references data from another Blender file.
+
+Library Override:
+Library Override allows modifications to linked data.
+
+Instance:
+An instance displays duplicated data efficiently.
+
+Collection Instance:
+A Collection Instance creates reusable collection duplicates.
+
+Proxy:
+A Proxy was an older system for editing linked rigs.
+
+Data Block:
+A Data Block stores Blender data such as meshes and materials.
+
+Mesh Data:
+Mesh Data contains vertices, edges and faces.
+
+Material Slot:
+A Material Slot assigns materials to an object.
+
+Object Data Properties:
+Object Data Properties contain object-specific settings.
+
+Custom Normals:
+Custom Normals define custom shading directions.
+
+Auto Smooth:
+Auto Smooth preserves sharp edges while smoothing surfaces.
+
+Weighted Normal Modifier:
+Weighted Normal Modifier improves shading quality.
+
+Edge Crease:
+Edge Crease controls subdivision sharpness.
+
+Subdivision Level:
+Subdivision Level determines mesh smoothness detail.
+
+Viewport Subdivision:
+Viewport Subdivision affects display quality.
+
+Render Subdivision:
+Render Subdivision affects final render quality.
+
+Wireframe Modifier:
+Wireframe Modifier converts geometry into wire structures.
+
+Lattice:
+A Lattice deforms objects using a control cage.
+
+Lattice Modifier:
+Lattice Modifier applies lattice deformation.
+
+Curve:
+A Curve defines paths and shapes mathematically.
+
+Bezier Curve:
+A Bezier Curve uses control handles for shaping.
+
+NURBS Curve:
+A NURBS Curve creates smooth mathematical surfaces.
+
+Path Animation:
+Path Animation moves objects along curves.
+
+Follow Path Constraint:
+Follow Path Constraint makes objects follow a path.
+
+Curve Modifier:
+Curve Modifier bends objects along curves.
+
+Text Object:
+A Text Object generates editable 3D text.
+
+Font:
+A Font defines text appearance.
+
+Extrude Text:
+Extrude Text adds depth to text objects.
+
+Convert To Mesh:
+Convert To Mesh changes procedural data into geometry.
+
+Grease Pencil Object:
+A Grease Pencil Object stores 2D drawings.
+
+Stroke:
+A Stroke is a line drawn with Grease Pencil.
+
+Fill:
+Fill creates solid areas inside Grease Pencil strokes.
+
+Keyframe Drawing:
+Keyframe Drawing stores animation frames for Grease Pencil.
+
+Onion Skinning:
+Onion Skinning displays neighboring animation frames.
+
+Frame Range:
+Frame Range determines animation duration.
+
+Start Frame:
+Start Frame defines animation beginning.
+
+End Frame:
+End Frame defines animation ending.
+
+FPS:
+FPS defines frames displayed per second.
+
+Playback:
+Playback runs animations in real time.
+
+Render Animation:
+Render Animation generates image sequences or videos.
+
+Image Sequence:
+An Image Sequence stores animation as individual images.
+
+FFmpeg:
+FFmpeg handles video encoding in Blender.
+
+Codec:
+A Codec compresses video output.
+
+Output Properties:
+Output Properties define render output settings.
+
+Resolution:
+Resolution determines image dimensions.
+
+Aspect Ratio:
+Aspect Ratio defines width-to-height proportions.
+
+Transparent Background:
+Transparent Background removes the world background.
+
+Camera Clipping:
+Camera Clipping defines visible distance limits.
+
+Viewport Clipping:
+Viewport Clipping controls visible scene distance.
+
+Orthographic Camera:
+An Orthographic Camera removes perspective distortion.
+
+Perspective Camera:
+A Perspective Camera simulates real-world vision.
+
+Safe Areas:
+Safe Areas show screen boundaries for output.
+
+Composition Guides:
+Composition Guides assist scene framing.
+
+Rule of Thirds:
+Rule of Thirds divides the image into balanced sections.
+
+Golden Ratio:
+Golden Ratio helps create pleasing compositions.
+
+Tracking:
+Tracking follows movement within footage.
+
+Motion Tracking:
+Motion Tracking analyzes object movement in videos.
+
+Camera Tracking:
+Camera Tracking reconstructs camera movement.
+
+Marker Track:
+A Marker Track follows visual features.
+
+Solve:
+Solve calculates camera motion from tracking data.
+
+Masking:
+Masking isolates specific image regions.
+
+Movie Clip Editor:
+Movie Clip Editor handles tracking workflows.
+
+Video Sequencer:
+Video Sequencer edits video inside Blender.
+
+Strip:
+A Strip represents media in the sequencer.
+
+Crossfade:
+Crossfade blends two video clips.
+
+Audio Strip:
+An Audio Strip contains sound data.
+
+Waveform:
+Waveform displays audio amplitude visually.
+
+Speaker Object:
+A Speaker Object plays sound in a scene.
+
+Physics Cache:
+Physics Cache stores simulation results.
+
+Bake Simulation:
+Bake Simulation calculates and stores simulation data.
+
+Cache File:
+A Cache File stores simulation results externally.
+
+Domain:
+A Domain defines the simulation area.
+
+Effector:
+An Effector influences simulation behavior.
+
+Collision Modifier:
+Collision Modifier enables physical interactions.
+
+Pressure:
+Pressure affects cloth simulation inflation.
+
+Pin Group:
+A Pin Group locks specific cloth vertices.
+
+Vertex Mass:
+Vertex Mass determines cloth weight.
+
+Self Collision:
+Self Collision prevents cloth intersections.
+
+Rigid Body World:
+Rigid Body World manages rigid body simulations.
+
+Passive Body:
+A Passive Body influences simulations without moving.
+
+Active Body:
+An Active Body responds to simulation forces.
+
+Constraint Physics:
+Constraint Physics restricts object movement.
+
+Hinge Constraint:
+Hinge Constraint allows rotation around one axis.
+
+Spring Constraint:
+Spring Constraint creates elastic connections.
+
+Ocean Modifier:
+Ocean Modifier generates realistic water surfaces.
+
+Dynamic Paint:
+Dynamic Paint allows objects to paint on surfaces.
+
+Canvas:
+A Canvas receives Dynamic Paint effects.
+
+Brush Object:
+A Brush Object applies Dynamic Paint effects.
+
+Particle Instance:
+A Particle Instance duplicates objects as particles.
+
+Child Particles:
+Child Particles generate additional particles from parents.
+
+Emitter:
+An Emitter generates particles.
+
+Hair Dynamics:
+Hair Dynamics simulates physical hair movement.
+
+Point Cache:
+Point Cache stores particle simulation data.
+
+Geometry Nodes Modifier:
+The Geometry Nodes Modifier applies procedural node networks to objects.
+
+Node Group:
+A Node Group combines multiple nodes into a reusable setup.
+
+Group Input:
+Group Input provides external data to a node group.
+
+Group Output:
+Group Output sends the final result outside a node group.
+
+Attribute:
+An Attribute stores data associated with geometry elements.
+
+Named Attribute:
+A Named Attribute references stored geometry data.
+
+Field:
+A Field calculates values dynamically across geometry.
+
+Selection:
+A Selection determines which geometry elements are affected.
+
+Instance on Points:
+Instance on Points places objects on geometry points.
+
+Realize Instances:
+Realize Instances converts instances into editable geometry.
+
+Join Geometry:
+Join Geometry combines multiple geometry streams.
+
+Separate Geometry:
+Separate Geometry splits geometry based on conditions.
+
+Delete Geometry:
+Delete Geometry removes selected geometry elements.
+
+Transform Geometry:
+Transform Geometry moves, rotates or scales geometry.
+
+Set Position:
+Set Position modifies geometry point locations.
+
+Set Material:
+Set Material assigns materials procedurally.
+
+Set Shade Smooth:
+Set Shade Smooth applies smooth shading procedurally.
+
+Subdivide Mesh:
+Subdivide Mesh adds geometry subdivisions.
+
+Triangulate:
+Triangulate converts faces into triangles.
+
+Mesh to Curve:
+Mesh to Curve converts mesh edges into curves.
+
+Curve to Mesh:
+Curve to Mesh generates geometry from curves.
+
+Curve Circle:
+Curve Circle creates circular curve shapes.
+
+Resample Curve:
+Resample Curve changes curve point density.
+
+Fill Curve:
+Fill Curve generates surfaces from closed curves.
+
+Extrude Mesh:
+Extrude Mesh extends geometry procedurally.
+
+Mesh Boolean:
+Mesh Boolean combines or cuts geometry procedurally.
+
+Mesh Island:
+A Mesh Island is a disconnected geometry section.
+
+Convex Hull:
+Convex Hull creates the smallest enclosing shape.
+
+Bounding Box:
+A Bounding Box represents the outer limits of geometry.
+
+Raycast:
+Raycast detects intersections along a direction.
+
+Proximity:
+Proximity measures distance between geometry elements.
+
+Random Value:
+Random Value generates random procedural data.
+
+Noise Function:
+Noise Function creates procedural randomness.
+
+Capture Attribute:
+Capture Attribute stores calculated values.
+
+Store Named Attribute:
+Store Named Attribute saves attribute data.
+
+Viewer Node:
+Viewer Node previews Geometry Nodes results.
+
+Simulation Zone:
+Simulation Zone enables procedural simulations.
+
+Repeat Zone:
+Repeat Zone repeats operations multiple times.
+
+Scene Time:
+Scene Time provides frame-based timing information.
+
+Switch Node:
+Switch Node chooses between multiple inputs.
+
+Compare Node:
+Compare Node evaluates conditions.
+
+Boolean Math:
+Boolean Math performs logical operations.
+
+Float Curve:
+Float Curve remaps numeric values.
+
+Map Range:
+Map Range converts values between ranges.
+
+Sample Index:
+Sample Index retrieves data by index.
+
+Sample Nearest:
+Sample Nearest retrieves nearby geometry data.
+
+Spline Parameter:
+Spline Parameter provides curve position information.
+
+Material Preview:
+Material Preview displays materials in the viewport.
+
+Rendered View:
+Rendered View displays final render quality interactively.
+
+Solid View:
+Solid View displays simplified geometry shading.
+
+Wireframe View:
+Wireframe View displays mesh structure only.
+
+Local View:
+Local View isolates selected objects.
+
+Overlay:
+Overlay displays guides and helper information.
+
+Gizmo:
+A Gizmo provides interactive transform controls.
+
+Transform Orientation:
+Transform Orientation defines transformation axes.
+
+Global Orientation:
+Global Orientation uses world axes.
+
+Local Orientation:
+Local Orientation uses object axes.
+
+Normal Orientation:
+Normal Orientation uses surface directions.
+
+Cursor Orientation:
+Cursor Orientation uses the 3D Cursor orientation.
+
+Custom Orientation:
+Custom Orientation uses user-defined axes.
+
+Pivot Point:
+Pivot Point defines the center of transformations.
+
+Median Point:
+Median Point uses the average selection center.
+
+Individual Origins:
+Individual Origins transforms elements separately.
+
+Active Element:
+Active Element uses the last selected item as pivot.
+
+Bounding Box Center:
+Bounding Box Center uses the selection bounds center.
+
+Snapping Target:
+Snapping Target determines snapping behavior.
+
+Measure Tool:
+Measure Tool calculates distances and angles.
+
+Ruler:
+A Ruler provides visual measurements.
+
+Statistics Overlay:
+Statistics Overlay displays mesh information.
+
+Face Orientation:
+Face Orientation visualizes normal directions.
+
+Backface Culling:
+Backface Culling hides reversed polygons.
+
+Normals:
+Normals define surface facing directions.
+
+Recalculate Normals:
+Recalculate Normals fixes normal orientation.
+
+Flip Normals:
+Flip Normals reverses normal directions.
+
+Edge Split:
+Edge Split separates edges for sharp shading.
+
+Mark Sharp:
+Mark Sharp identifies sharp edges.
+
+Freestyle:
+Freestyle creates stylized line renders.
+
+Line Set:
+A Line Set defines Freestyle line groups.
+
+Line Style:
+A Line Style controls Freestyle appearance.
+
+Render Border:
+Render Border limits rendering to a selected area.
+
+Viewport Render:
+Viewport Render captures the current viewport.
+
+Workbench:
+Workbench is Blender's basic viewport render engine.
+
+Studio Light:
+A Studio Light provides viewport lighting presets.
+
+MatCap:
+MatCap uses predefined lighting and shading.
+
+Scene Collection:
+Scene Collection contains all scene objects.
+
+View Layer:
+A View Layer controls scene visibility for rendering.
+
+Holdout:
+Holdout masks objects from final renders.
+
+Indirect Only:
+Indirect Only displays only indirect lighting contributions.
+
+Render Slot:
+A Render Slot stores previous render results.
+
+Persistent Data:
+Persistent Data keeps render information in memory.
+
+Dependency Graph:
+The Dependency Graph manages scene evaluation order.
+
+Undo History:
+Undo History stores previous actions for recovery.
+
+UV Sphere:
+A UV Sphere is a primitive object composed of latitude and longitude segments.
+
+Icosphere:
+An Icosphere is a sphere built from evenly distributed triangles.
+
+Cube:
+A Cube is the default primitive mesh in Blender.
+
+Plane:
+A Plane is a flat mesh consisting of a single face.
+
+Cylinder:
+A Cylinder is a primitive mesh with circular ends.
+
+Cone:
+A Cone is a primitive mesh that tapers to a point.
+
+Torus:
+A Torus is a donut-shaped primitive mesh.
+
+Monkey:
+Monkey is Blender's Suzanne test mesh.
+
+Suzanne:
+Suzanne is Blender's built-in monkey head model.
+
+Primitive:
+A Primitive is a basic object used as a modeling starting point.
+
+Duplicate:
+Duplicate creates a copy of an object.
+
+Linked Duplicate:
+A Linked Duplicate shares data with the original object.
+
+Collection Visibility:
+Collection Visibility controls whether collections are displayed.
+
+Object Visibility:
+Object Visibility controls whether an object is displayed.
+
+Hide in Viewport:
+Hide in Viewport prevents an object from appearing in the viewport.
+
+Hide in Render:
+Hide in Render prevents an object from appearing in final renders.
+
+Selectable:
+Selectable determines whether an object can be selected.
+
+Parent Object:
+A Parent Object controls transformations of child objects.
+
+Child Object:
+A Child Object inherits transformations from a parent.
+
+Keep Transform:
+Keep Transform preserves world position during parenting.
+
+Clear Parent:
+Clear Parent removes parent-child relationships.
+
+Apply Location:
+Apply Location resets location values while preserving position.
+
+Apply Rotation:
+Apply Rotation resets rotation values while preserving orientation.
+
+Apply Scale:
+Apply Scale resets scale values while preserving size.
+
+Apply All Transforms:
+Apply All Transforms applies location, rotation and scale together.
+
+Delta Transform:
+Delta Transform adds additional transformation offsets.
+
+Transformation Matrix:
+A Transformation Matrix stores object transformation data.
+
+Custom Transform Pivot:
+A Custom Transform Pivot defines a user-selected pivot point.
+
+Edge Slide:
+Edge Slide moves edges along connected geometry.
+
+Vertex Slide:
+Vertex Slide moves vertices along connected edges.
+
+Spin Tool:
+Spin Tool rotates geometry around an axis.
+
+Screw Modifier:
+Screw Modifier creates rotational geometry from profiles.
+
+Skin Modifier:
+Skin Modifier generates surfaces around vertices and edges.
+
+Cast Modifier:
+Cast Modifier reshapes geometry into simple forms.
+
+Simple Deform:
+Simple Deform bends, twists or stretches geometry.
+
+Warp Modifier:
+Warp Modifier deforms geometry using control objects.
+
+Mesh Cache Modifier:
+Mesh Cache Modifier loads external animation data.
+
+Surface Deform:
+Surface Deform transfers deformation from another mesh.
+
+Corrective Smooth:
+Corrective Smooth fixes deformation artifacts.
+
+Laplacian Smooth:
+Laplacian Smooth relaxes mesh geometry.
+
+Laplacian Deform:
+Laplacian Deform preserves shape during deformation.
+
+Vertex Weight Edit:
+Vertex Weight Edit modifies weight values procedurally.
+
+Vertex Weight Mix:
+Vertex Weight Mix combines weight groups.
+
+Vertex Weight Proximity:
+Vertex Weight Proximity creates weights based on distance.
+
+Data Transfer:
+Data Transfer copies data between meshes.
+
+UV Warp:
+UV Warp animates UV coordinates.
+
+Mesh Sequence Cache:
+Mesh Sequence Cache imports animated mesh caches.
+
+Explode Modifier:
+Explode Modifier separates geometry using particles.
+
+Build Modifier:
+Build Modifier animates mesh construction.
+
+Mask Modifier:
+Mask Modifier hides parts of a mesh.
+
+Hook Modifier:
+Hook Modifier deforms geometry using control objects.
+
+Camera Background Image:
+A Camera Background Image displays reference images.
+
+Reference Image:
+A Reference Image assists modeling and design.
+
+Blueprint Modeling:
+Blueprint Modeling uses reference drawings as guides.
+
+Orthographic View:
+Orthographic View removes perspective distortion.
+
+Front View:
+Front View displays the front axis of a scene.
+
+Side View:
+Side View displays the side axis of a scene.
+
+Top View:
+Top View displays the top axis of a scene.
+
+Quad View:
+Quad View displays multiple orthographic views simultaneously.
+
+Viewport Shading:
+Viewport Shading controls visual display modes.
+
+X-Ray Mode:
+X-Ray Mode allows viewing through geometry.
+
+Cavity:
+Cavity enhances small surface details visually.
+
+Shadow Display:
+Shadow Display previews shadows in the viewport.
+
+Random Object Color:
+Random Object Color assigns random viewport colors.
+
+Material Override:
+Material Override replaces materials temporarily.
+
+Stencil:
+A Stencil controls sculpting or painting influence.
+
+Alpha Texture:
+An Alpha Texture controls transparency and brush shapes.
+
+Brush Radius:
+Brush Radius determines brush size.
+
+Brush Strength:
+Brush Strength controls brush influence intensity.
+
+Brush Falloff:
+Brush Falloff controls influence distribution.
+
+Symmetry:
+Symmetry mirrors sculpting and painting actions.
+
+Radial Symmetry:
+Radial Symmetry repeats strokes around an axis.
+
+Dynamic Brush:
+A Dynamic Brush changes behavior based on input.
+
+Texture Mask:
+A Texture Mask limits brush effects.
+
+Face Set Visibility:
+Face Set Visibility controls sculpt face group display.
+
+Color Attribute:
+A Color Attribute stores color data on geometry.
+
+Vertex Color Layer:
+A Vertex Color Layer contains per-vertex color information.
+
+Image Editor:
+The Image Editor displays and edits images.
+
+Paint Slot:
+A Paint Slot stores paintable texture assignments.
+
+Clone Brush:
+Clone Brush copies pixels from one area to another.
+
+Smear Brush:
+Smear Brush drags colors across a surface.
+
+Fill Tool:
+Fill Tool fills selected areas with color.
+
+Gradient Tool:
+Gradient Tool creates smooth color transitions.
+
+Texture Slot Masking:
+Texture Slot Masking limits painting to specific textures.
+
+UDIM:
+UDIM allows textures to be split across multiple tiles.
+
+Tile Texture:
+A Tile Texture uses multiple texture regions.
+
+PBR Workflow:
+PBR Workflow uses physically based rendering principles.
+
+Albedo Map:
+An Albedo Map stores base surface color.
+
+Roughness Map:
+A Roughness Map controls reflection sharpness.
+
+Metalness Map:
+A Metalness Map defines metallic surface properties.
+
+Height Map:
+A Height Map stores elevation information.
+
+Opacity Map:
+An Opacity Map controls transparency values.
+
+Specular Map:
+A Specular Map controls reflection intensity.
+
+Texture Coordinate Node:
+A Texture Coordinate Node provides mapping coordinates for textures.
+
+Generated Coordinates:
+Generated Coordinates are automatically calculated texture coordinates.
+
+Object Coordinates:
+Object Coordinates use an object's transform for mapping.
+
+UV Coordinates:
+UV Coordinates use a mesh's UV layout.
+
+Camera Coordinates:
+Camera Coordinates project textures from the camera view.
+
+Reflection Coordinates:
+Reflection Coordinates simulate reflected environment mapping.
+
+Mapping Transform:
+A Mapping Transform adjusts texture placement and orientation.
+
+Checker Texture:
+A Checker Texture generates a checkerboard pattern.
+
+Brick Texture:
+A Brick Texture generates procedural brick patterns.
+
+Gradient Texture:
+A Gradient Texture creates smooth value transitions.
+
+Wave Texture:
+A Wave Texture generates wave-like patterns.
+
+Magic Texture:
+A Magic Texture creates colorful procedural patterns.
+
+White Noise Texture:
+A White Noise Texture generates random values.
+
+RGB Node:
+An RGB Node outputs a constant color.
+
+Value Node:
+A Value Node outputs a constant numeric value.
+
+Hue Saturation Value:
+A Hue Saturation Value node adjusts image colors.
+
+Bright Contrast:
+A Bright Contrast node modifies brightness and contrast.
+
+Invert Node:
+An Invert Node reverses color values.
+
+Gamma Node:
+A Gamma Node adjusts image gamma.
+
+Color Mix:
+A Color Mix node blends multiple colors.
+
+Math Node:
+A Math Node performs mathematical operations.
+
+Vector Math:
+A Vector Math node performs vector calculations.
+
+Clamp:
+Clamp restricts values within a range.
+
+Separate XYZ:
+Separate XYZ splits a vector into components.
+
+Combine XYZ:
+Combine XYZ combines values into a vector.
+
+Vector Rotate:
+Vector Rotate rotates vector values.
+
+Attribute Statistic:
+Attribute Statistic calculates geometry statistics.
+
+Accumulate Field:
+Accumulate Field stores cumulative values.
+
+Scene Info:
+Scene Info provides scene-wide information.
+
+Object Info:
+Object Info provides object-specific information.
+
+Collection Info:
+Collection Info references collection data.
+
+Image Sequence Texture:
+An Image Sequence Texture uses multiple images as animation.
+
+Movie Texture:
+A Movie Texture uses video files as textures.
+
+Packing Data:
+Packing Data stores external assets inside a Blender file.
+
+Unpack Data:
+Unpack Data extracts embedded assets.
+
+Relative Path:
+A Relative Path references files relative to the project.
+
+Absolute Path:
+An Absolute Path references an exact file location.
+
+Autosave:
+Autosave periodically saves recovery files.
+
+Recover Session:
+Recover Session restores the last Blender session.
+
+Recover Auto Save:
+Recover Auto Save loads automatically saved files.
+
+Startup File:
+A Startup File defines Blender's default scene.
+
+Factory Settings:
+Factory Settings restore Blender defaults.
+
+Splash Screen:
+The Splash Screen appears when Blender starts.
+
+Status Bar:
+The Status Bar displays contextual information.
+
+Tool Settings:
+Tool Settings contain active tool options.
+
+Sidebar:
+The Sidebar contains additional viewport controls.
+
+Properties Editor:
+The Properties Editor displays settings panels.
+
+Shader Editor:
+The Shader Editor creates material node networks.
+
+Geometry Node Editor:
+The Geometry Node Editor creates procedural systems.
+
+Compositor Editor:
+The Compositor Editor creates post-processing effects.
+
+Text Editor:
+The Text Editor allows scripting inside Blender.
+
+Spreadsheet Editor:
+The Spreadsheet Editor displays geometry data.
+
+Node Wrangler:
+Node Wrangler is an addon that improves node workflows.
+
+LoopTools:
+LoopTools is an addon for mesh editing.
+
+F2 Addon:
+F2 Addon speeds up face creation workflows.
+
+MeasureIt:
+MeasureIt is an addon for technical measurements.
+
+Rigging Workflow:
+A Rigging Workflow defines the process of preparing animation controls.
+
+Character Rig:
+A Character Rig controls humanoid animation.
+
+Creature Rig:
+A Creature Rig controls non-human characters.
+
+Facial Rig:
+A Facial Rig controls facial expressions.
+
+Control Rig:
+A Control Rig provides animator-friendly controls.
+
+Deformation Rig:
+A Deformation Rig directly affects mesh deformation.
+
+Stretchy IK:
+Stretchy IK allows bones to extend dynamically.
+
+Bone Layer:
+A Bone Layer organizes rig components.
+
+Bone Group:
+A Bone Group visually organizes bones.
+
+Pose Constraint:
+A Pose Constraint affects bone behavior in pose mode.
+
+Rest Pose:
+A Rest Pose defines the default rig state.
+
+Pose Asset:
+A Pose Asset stores reusable character poses.
+
+Action Constraint:
+An Action Constraint drives animation playback.
+
+Transformation Constraint:
+A Transformation Constraint maps one transform to another.
+
+Maintain Volume:
+Maintain Volume preserves mesh thickness during deformation.
+
+Dual Quaternion:
+Dual Quaternion improves character deformation quality.
+
+Linear Skinning:
+Linear Skinning is a traditional mesh deformation method.
+
+Animation Retargeting:
+Animation Retargeting transfers motion between rigs.
+
+Motion Capture:
+Motion Capture records real-world movement data.
+
+Root Motion:
+Root Motion stores character movement in animation data.
+
+Walk Cycle:
+A Walk Cycle is a looping walking animation.
+
+Run Cycle:
+A Run Cycle is a looping running animation.
+
+Idle Animation:
+An Idle Animation represents a resting character state.
+
+Animation Loop:
+An Animation Loop repeats seamlessly.
+
+Key Pose:
+A Key Pose defines an important animation moment.
+
+Breakdown Pose:
+A Breakdown Pose connects major animation poses.
+
+Inbetween:
+An Inbetween fills motion between key poses.
+
+Animation Timing:
+Animation Timing controls motion speed and rhythm.
+
+Animation Spacing:
+Animation Spacing controls perceived acceleration and speed.
+
+Animation Curve:
+An Animation Curve represents value changes over time.
+
+F-Curve:
+An F-Curve controls animation interpolation in Blender.
+
+Channel:
+A Channel stores animation data for a specific property.
+
+Muted Channel:
+A Muted Channel temporarily disables animation influence.
+
+Locked Channel:
+A Locked Channel prevents editing of animation data.
+
+Keying Set:
+A Keying Set defines which properties receive keyframes.
+
+Auto Keying:
+Auto Keying automatically inserts keyframes during editing.
+
+Visual Keying:
+Visual Keying records the final evaluated transform.
+
+Keyframe Type:
+A Keyframe Type identifies the purpose of a keyframe.
+
+Extreme Key:
+An Extreme Key marks an important animation pose.
+
+Moving Hold:
+A Moving Hold creates subtle motion during a pause.
+
+Stepped Animation:
+Stepped Animation uses constant interpolation for blocking.
+
+Blocking:
+Blocking establishes major animation poses.
+
+Spline Animation:
+Spline Animation uses smooth interpolation between poses.
+
+Animation Layering:
+Animation Layering combines multiple motion sources.
+
+Pose Breakdowner:
+Pose Breakdowner helps create intermediate poses.
+
+Ghosting:
+Ghosting displays previous and future poses.
+
+Motion Path:
+A Motion Path visualizes object movement.
+
+Path Calculation:
+Path Calculation generates motion path data.
+
+Frame Step:
+Frame Step determines playback intervals.
+
+Preview Range:
+Preview Range limits playback to selected frames.
+
+Time Remapping:
+Time Remapping changes animation playback speed.
+
+Frame Offset:
+Frame Offset shifts animation timing.
+
+Scene Frame:
+A Scene Frame represents a single point in time.
+
+Render Frame:
+A Render Frame is an image generated from animation.
+
+Animation Data:
+Animation Data stores keyframes and actions.
+
+Action Editor:
+The Action Editor manages animation actions.
+
+Pose Marker:
+A Pose Marker labels important animation positions.
+
+Animation Strip:
+An Animation Strip contains reusable motion data.
+
+Influence:
+Influence determines the strength of an effect.
+
+Blend Mode:
+Blend Mode defines how animations combine.
+
+Additive Animation:
+Additive Animation adds motion on top of existing animation.
+
+Override Animation:
+Override Animation replaces underlying animation.
+
+Extrapolation:
+Extrapolation defines behavior outside keyframes.
+
+Cyclic Modifier:
+A Cyclic Modifier repeats animation infinitely.
+
+Noise Modifier:
+A Noise Modifier adds randomness to animation.
+
+Envelope Modifier:
+An Envelope Modifier controls curve influence.
+
+Generator Modifier:
+A Generator Modifier creates procedural curves.
+
+Cycles Modifier:
+A Cycles Modifier repeats animation patterns.
+
+Stepped Modifier:
+A Stepped Modifier creates stepped motion.
+
+Armature Deform:
+Armature Deform allows bones to deform meshes.
+
+Envelope Deform:
+Envelope Deform uses bone envelopes for influence.
+
+Bone Envelope:
+A Bone Envelope defines an influence region around a bone.
+
+Vertex Weight:
+A Vertex Weight determines deformation strength.
+
+Weight Gradient:
+A Weight Gradient creates smooth weight transitions.
+
+Weight Blur:
+Weight Blur smooths weight values.
+
+Weight Mirror:
+Weight Mirror copies weights across symmetry.
+
+Weight Lock:
+Weight Lock prevents weight modification.
+
+Weight Transfer:
+Weight Transfer copies deformation weights.
+
+Bone Heat Weighting:
+Bone Heat Weighting automatically assigns weights.
+
+Automatic Rigging:
+Automatic Rigging generates rigs with minimal setup.
+
+Humanoid Rig:
+A Humanoid Rig is designed for human characters.
+
+Spine Rig:
+A Spine Rig controls torso movement.
+
+Neck Rig:
+A Neck Rig controls head orientation.
+
+Finger Rig:
+A Finger Rig controls finger articulation.
+
+Foot Roll:
+Foot Roll automates foot movement during walking.
+
+IK Switch:
+An IK Switch changes between IK and FK control.
+
+FK Switch:
+An FK Switch enables forward kinematics control.
+
+Pole Vector:
+A Pole Vector defines IK bending direction.
+
+Space Switching:
+Space Switching changes control reference spaces.
+
+Constraint Stack:
+A Constraint Stack evaluates constraints sequentially.
+
+Constraint Influence:
+Constraint Influence controls constraint strength.
+
+Track Constraint:
+A Track Constraint aligns an object toward a target.
+
+Aim Constraint:
+An Aim Constraint points an object at a target.
+
+Copy Transform:
+Copy Transform duplicates all transformation data.
+
+Limit Distance:
+Limit Distance restricts separation between objects.
+
+Floor Constraint:
+A Floor Constraint prevents movement below a boundary.
+
+Pivot Constraint:
+A Pivot Constraint changes rotational pivot behavior.
+
+Driver Expression:
+A Driver Expression defines mathematical relationships.
+
+Driver Target:
+A Driver Target provides input data.
+
+Variable Type:
+A Variable Type defines driver input behavior.
+
+Single Property:
+A Single Property driver references one property.
+
+Transform Channel:
+A Transform Channel driver references transformations.
+
+Distance Driver:
+A Distance Driver measures distance between objects.
+
+Python Driver:
+A Python Driver uses scripting for calculations.
+
+Custom UI:
+A Custom UI provides user-friendly rig controls.
+
+Rig Widget:
+A Rig Widget is a visual controller shape.
+
+Controller Shape:
+A Controller Shape improves rig usability.
+
+Selection Set:
+A Selection Set stores object or bone selections.
+
+Animation Rig:
+An Animation Rig provides animator-friendly controls.
+
+Production Rig:
+A Production Rig is optimized for professional workflows.
+
+Game Rig:
+A Game Rig is optimized for real-time engines.
+
+Export Rig:
+An Export Rig is prepared for external software.
+
+Retarget Rig:
+A Retarget Rig adapts animations between skeletons.
+
+FBX Export:
+FBX Export saves models, rigs and animations for external applications.
+
+OBJ Export:
+OBJ Export saves mesh geometry without rigging data.
+
+GLTF Export:
+GLTF Export exports assets optimized for real-time applications.
+
+USD Export:
+USD Export exports scenes using the Universal Scene Description format.
+
+Alembic Export:
+Alembic Export stores animated geometry caches.
+
+STL Export:
+STL Export exports meshes for 3D printing.
+
+PLY Export:
+PLY Export stores mesh geometry and vertex data.
+
+Import Settings:
+Import Settings control how external assets are loaded.
+
+Scale Conversion:
+Scale Conversion adjusts object sizes during import and export.
+
+Axis Conversion:
+Axis Conversion converts coordinate systems between applications.
+
+Triangulation:
+Triangulation converts polygons into triangles for compatibility.
+
+Mesh Optimization:
+Mesh Optimization improves performance and reduces complexity.
+
+LOD:
+LOD stands for Level of Detail and reduces geometry at distance.
+
+LOD Model:
+A LOD Model is a simplified version of an object.
+
+Game Asset:
+A Game Asset is optimized for real-time rendering.
+
+Real-Time Rendering:
+Real-Time Rendering generates images interactively.
+
+Draw Call:
+A Draw Call is a rendering instruction sent to the GPU.
+
+Texture Atlas Optimization:
+Texture Atlas Optimization reduces material switching.
+
+Texture Compression:
+Texture Compression reduces texture memory usage.
+
+Light Baking:
+Light Baking stores lighting information in textures.
+
+Lightmap:
+A Lightmap contains baked lighting information.
+
+Baked Shadow:
+A Baked Shadow is precomputed and stored in textures.
+
+Reflection Probe:
+A Reflection Probe captures environmental reflections.
+
+Irradiance Volume:
+An Irradiance Volume stores indirect lighting information.
+
+Occlusion Culling:
+Occlusion Culling hides unseen geometry.
+
+Frustum Culling:
+Frustum Culling hides objects outside the camera view.
+
+GPU Rendering:
+GPU Rendering uses the graphics card for rendering.
+
+CPU Rendering:
+CPU Rendering uses the processor for rendering.
+
+Render Tile:
+A Render Tile is a section of an image rendered separately.
+
+Adaptive Sampling:
+Adaptive Sampling reduces noise efficiently.
+
+Sample Count:
+Sample Count determines render quality.
+
+Light Path:
+A Light Path defines how light bounces in a scene.
+
+Bounce Limit:
+Bounce Limit restricts light reflections and refractions.
+
+Caustics:
+Caustics are focused light patterns created by reflections.
+
+Indirect Lighting:
+Indirect Lighting comes from bounced light.
+
+Direct Lighting:
+Direct Lighting comes directly from light sources.
+
+Shadow Ray:
+A Shadow Ray determines shadow visibility.
+
+Glossy Reflection:
+A Glossy Reflection creates blurred reflections.
+
+Diffuse Reflection:
+A Diffuse Reflection scatters light evenly.
+
+Transmission:
+Transmission allows light to pass through materials.
+
+Volume Rendering:
+Volume Rendering simulates light interaction with volumes.
+
+Volumetric Fog:
+Volumetric Fog creates atmospheric haze.
+
+Volumetric Lighting:
+Volumetric Lighting visualizes light beams.
+
+Light Linking:
+Light Linking controls which objects receive light.
+
+Render Region:
+A Render Region limits rendering to a selected area.
+
+Persistent Images:
+Persistent Images keep rendered images in memory.
+
+Image Buffer:
+An Image Buffer stores pixel information.
+
+Color Management:
+Color Management controls color display and conversion.
+
+View Transform:
+View Transform maps render colors to display colors.
+
+Filmic:
+Filmic improves dynamic range handling.
+
+AgX:
+AgX is a modern color management transform.
+
+Exposure:
+Exposure adjusts image brightness.
+
+Gamma Correction:
+Gamma Correction adjusts perceived brightness.
+
+White Balance:
+White Balance corrects color temperature.
+
+Color Space:
+A Color Space defines color interpretation.
+
+sRGB:
+sRGB is the standard display color space.
+
+Linear Color:
+Linear Color is used for accurate rendering calculations.
+
+OpenEXR:
+OpenEXR stores high dynamic range image data.
+
+HDR Image:
+An HDR Image contains extended brightness information.
+
+Render Stamp:
+A Render Stamp adds metadata to rendered images.
+
+Metadata:
+Metadata stores additional file information.
+
+Asset Tag:
+An Asset Tag categorizes assets for searching.
+
+Catalog:
+A Catalog organizes assets in the Asset Browser.
+
+Asset Preview:
+An Asset Preview displays a thumbnail representation.
+
+Asset Marking:
+Asset Marking converts data into reusable assets.
+
+Pose Asset Library:
+A Pose Asset Library stores reusable character poses.
+
+Material Asset:
+A Material Asset stores reusable materials.
+
+Node Asset:
+A Node Asset stores reusable node groups.
+
+Brush Asset:
+A Brush Asset stores reusable brush settings.
+
+Library Path:
+A Library Path points to external asset locations.
+
+Version Control:
+Version Control tracks project changes.
+
+Incremental Save:
+Incremental Save creates numbered project versions.
+
+Project Pipeline:
+A Project Pipeline defines asset production workflows.
+
+Naming Convention:
+A Naming Convention standardizes file and object names.
+
+Scene Organization:
+Scene Organization improves project management.
+
+Collection Hierarchy:
+A Collection Hierarchy structures scene contents.
+
+Proxy Object:
+A Proxy Object represents complex data with a lightweight version.
+
+Reference Asset:
+A Reference Asset is used as a production guideline.
+
+Master File:
+A Master File contains the primary project data.
+
+Shot File:
+A Shot File contains scene-specific production data.
+
+Render Farm:
+A Render Farm distributes rendering tasks across computers.
+
+Batch Render:
+Batch Render processes multiple scenes automatically.
+
+Command Line Render:
+Command Line Render launches rendering through terminal commands.
+
+Background Mode:
+Background Mode runs Blender without the user interface.
+
+Python Script:
+A Python Script automates Blender tasks.
+
+Addon Development:
+Addon Development extends Blender functionality with Python.
+
+Operator Class:
+An Operator Class defines executable Blender actions.
+
+Panel Class:
+A Panel Class creates custom user interface panels.
+
+Property Group:
+A Property Group stores custom addon data.
+
+Context:
+Context represents the current Blender state.
+
+Dependency Update:
+A Dependency Update refreshes affected scene elements.
+
+Event Handler:
+An Event Handler responds to Blender events.
+
+API Reference:
+The API Reference documents Blender's Python functionality.
+
+Shader Node Tree:
+A Shader Node Tree defines material behavior through connected nodes.
+
+Node Socket:
+A Node Socket is an input or output connection point.
+
+Node Link:
+A Node Link transfers data between nodes.
+
+Reroute Node:
+A Reroute Node organizes node connections.
+
+Frame Node:
+A Frame Node groups nodes visually.
+
+Group Node:
+A Group Node references a reusable node network.
+
+Material Output:
+A Material Output node defines the final shader result.
+
+World Output:
+A World Output node defines environment shading.
+
+Light Output:
+A Light Output node defines custom light shaders.
+
+Emission Strength:
+Emission Strength controls the intensity of emitted light.
+
+Transparent BSDF:
+Transparent BSDF creates fully transparent surfaces.
+
+Translucent BSDF:
+Translucent BSDF simulates light passing through thin surfaces.
+
+Diffuse BSDF:
+Diffuse BSDF simulates matte surface shading.
+
+Glossy BSDF:
+Glossy BSDF simulates reflective surfaces.
+
+Velvet BSDF:
+Velvet BSDF simulates soft fabric reflections.
+
+Toon BSDF:
+Toon BSDF creates cartoon-style shading.
+
+Mix Shader:
+Mix Shader blends multiple shaders together.
+
+Add Shader:
+Add Shader combines shader contributions.
+
+Layer Weight:
+Layer Weight provides viewing angle information.
+
+Fresnel:
+Fresnel calculates reflection intensity based on angle.
+
+Ambient Occlusion Node:
+Ambient Occlusion Node calculates nearby shadowing.
+
+Light Path Node:
+Light Path Node provides render ray information.
+
+Object Info Node:
+Object Info Node provides object-specific data.
+
+Geometry Node Shader:
+Geometry Node Shader provides surface geometry information.
+
+Wireframe Node:
+Wireframe Node generates wireframe masks.
+
+Bevel Node:
+Bevel Node simulates rounded edges in shading.
+
+RGB Curves:
+RGB Curves adjust image color distributions.
+
+Vector Curves:
+Vector Curves adjust vector values.
+
+Blackbody:
+Blackbody converts temperature values into colors.
+
+Wavelength:
+Wavelength converts light wavelengths into colors.
+
+Clamp Node:
+Clamp Node restricts values within limits.
+
+Map Value:
+Map Value remaps numerical values.
+
+MixRGB:
+MixRGB combines color values.
+
+Color Balance:
+Color Balance adjusts color channels.
+
+Hue Correct:
+Hue Correct modifies specific color ranges.
+
+Lens Distortion:
+Lens Distortion simulates camera lens effects.
+
+Glare Node:
+Glare Node generates bloom and streak effects.
+
+Defocus Node:
+Defocus Node simulates depth of field.
+
+Bokeh:
+Bokeh represents out-of-focus highlights.
+
+Sun Beams:
+Sun Beams generate radial light rays.
+
+Dilate Erode:
+Dilate Erode expands or contracts image masks.
+
+Alpha Over:
+Alpha Over composites images using transparency.
+
+Premultiplied Alpha:
+Premultiplied Alpha stores transparency efficiently.
+
+Straight Alpha:
+Straight Alpha stores independent color and alpha channels.
+
+Cryptomatte Layer:
+A Cryptomatte Layer stores object identification masks.
+
+Mist Pass:
+Mist Pass stores atmospheric depth information.
+
+Vector Pass:
+Vector Pass stores motion information.
+
+Normal Pass:
+Normal Pass stores surface direction data.
+
+Diffuse Pass:
+Diffuse Pass stores diffuse lighting contributions.
+
+Glossy Pass:
+Glossy Pass stores reflection contributions.
+
+Transmission Pass:
+Transmission Pass stores refracted light contributions.
+
+Shadow Pass:
+Shadow Pass stores shadow information.
+
+Emission Pass:
+Emission Pass stores emitted light information.
+
+Environment Pass:
+Environment Pass stores world background lighting.
+
+Object Index:
+Object Index assigns identification values to objects.
+
+Material Index:
+Material Index assigns identification values to materials.
+
+Render Result:
+Render Result stores the current rendered image.
+
+Viewer Image:
+Viewer Image displays compositor output.
+
+Backdrop:
+Backdrop displays compositor results behind nodes.
+
+Node Mute:
+Node Mute temporarily disables a node.
+
+Node Preview:
+Node Preview displays intermediate node outputs.
+
+Node Alignment:
+Node Alignment organizes nodes automatically.
+
+Shader Compilation:
+Shader Compilation converts nodes into executable shaders.
+
+GPU Memory:
+GPU Memory stores rendering resources.
+
+VRAM:
+VRAM is dedicated memory on a graphics card.
+
+Texture Streaming:
+Texture Streaming loads textures dynamically.
+
+Mip Map:
+A Mip Map contains lower-resolution texture versions.
+
+Anisotropic Filtering:
+Anisotropic Filtering improves texture clarity at angles.
+
+Texture Resolution:
+Texture Resolution defines image dimensions.
+
+Texel Density:
+Texel Density measures texture detail consistency.
+
+UV Packing:
+UV Packing arranges UV islands efficiently.
+
+Island Margin:
+Island Margin creates spacing between UV islands.
+
+Seam Marking:
+Seam Marking defines UV unwrapping boundaries.
+
+Conformal Unwrap:
+Conformal Unwrap preserves local shapes.
+
+Angle Based Unwrap:
+Angle Based Unwrap minimizes distortion.
+
+Live Unwrap:
+Live Unwrap updates UVs automatically.
+
+Projection Painting:
+Projection Painting paints through the viewport.
+
+Stencil Mapping:
+Stencil Mapping controls texture projection placement.
+
+Clone Source:
+Clone Source defines the area copied by a clone brush.
+
+Texture Bleeding:
+Texture Bleeding extends colors beyond UV borders.
+
+Bake Margin:
+Bake Margin expands baked pixels around UV islands.
+
+Channel Packing:
+Channel Packing stores multiple maps in one texture.
+
+ORM Texture:
+An ORM Texture combines Occlusion, Roughness and Metallic maps.
+
+PBR Texture Set:
+A PBR Texture Set contains maps used in physically based rendering.
+
+Material Instance:
+A Material Instance reuses a base material with modified parameters.
+
+Shader Optimization:
+Shader Optimization reduces rendering costs.
+
+Draw Distance:
+Draw Distance determines how far objects remain visible.
+
+Billboard:
+A Billboard always faces the camera.
+
+Impostor:
+An Impostor replaces complex geometry with images.
+
+Scene Optimization:
+Scene Optimization improves rendering and viewport performance.
+
+Workbench Engine:
+The Workbench Engine provides fast viewport rendering.
+
+Render Engine:
+A Render Engine calculates images from 3D scenes.
+
+Viewport Performance:
+Viewport Performance measures scene responsiveness.
+
+Scene Statistics:
+Scene Statistics display information about scene complexity.
+
+Polygon Count:
+Polygon Count represents the number of polygons in a mesh.
+
+Vertex Count:
+Vertex Count represents the number of vertices in a mesh.
+
+Triangle Count:
+Triangle Count represents the number of triangles in a mesh.
+
+Memory Usage:
+Memory Usage measures the amount of system memory consumed.
+
+GPU Utilization:
+GPU Utilization measures graphics card workload.
+
+CPU Utilization:
+CPU Utilization measures processor workload.
+
+Instancing:
+Instancing duplicates geometry without duplicating data.
+
+Geometry Instancing:
+Geometry Instancing improves rendering efficiency.
+
+Collection Instancing:
+Collection Instancing duplicates entire collections.
+
+Linked Data Block:
+A Linked Data Block is shared among multiple objects.
+
+Orphan Data:
+Orphan Data consists of unused data blocks.
+
+Purge Orphans:
+Purge Orphans removes unused data blocks.
+
+Scene Cleanup:
+Scene Cleanup removes unnecessary scene elements.
+
+File Compression:
+File Compression reduces Blender file size.
+
+Packed Texture:
+A Packed Texture is stored inside a Blender file.
+
+External Texture:
+An External Texture is stored separately from the project.
+
+Relative Asset Path:
+A Relative Asset Path improves project portability.
+
+Asset Dependency:
+An Asset Dependency is a required external resource.
+
+Data Block User:
+A Data Block User references a specific data block.
+
+Fake User:
+A Fake User prevents data deletion when unused.
+
+Linked Library:
+A Linked Library provides externally referenced assets.
+
+Library Reload:
+Library Reload updates linked assets.
+
+Override Hierarchy:
+An Override Hierarchy manages linked asset modifications.
+
+Asset Pipeline:
+An Asset Pipeline defines content production workflows.
+
+Production Asset:
+A Production Asset is used in a professional workflow.
+
+Shot Management:
+Shot Management organizes production scenes.
+
+Sequence Management:
+Sequence Management organizes multiple shots.
+
+Storyboard:
+A Storyboard visualizes scene planning.
+
+Animatic:
+An Animatic is a timed storyboard sequence.
+
+Previsualization:
+Previsualization creates rough scene animations.
+
+Layout Stage:
+The Layout Stage establishes scene composition.
+
+Blocking Stage:
+The Blocking Stage defines major animation poses.
+
+Polish Stage:
+The Polish Stage refines final animation quality.
+
+Final Render:
+A Final Render is the completed output image or animation.
+
+Render Queue:
+A Render Queue manages multiple render jobs.
+
+Render Preset:
+A Render Preset stores rendering configurations.
+
+Output Format:
+Output Format defines exported image or video types.
+
+PNG Format:
+PNG Format supports lossless image compression.
+
+JPEG Format:
+JPEG Format uses lossy image compression.
+
+TIFF Format:
+TIFF Format stores high-quality image data.
+
+OpenEXR Multilayer:
+OpenEXR Multilayer stores multiple render passes.
+
+AVI Format:
+AVI Format is a video container format.
+
+FFmpeg Encoding:
+FFmpeg Encoding converts image sequences into videos.
+
+Bitrate:
+Bitrate determines video compression quality.
+
+Lossless Compression:
+Lossless Compression preserves original image quality.
+
+Lossy Compression:
+Lossy Compression reduces file size with quality loss.
+
+Color Depth:
+Color Depth determines the number of color values.
+
+8-Bit Color:
+8-Bit Color stores 256 values per channel.
+
+16-Bit Color:
+16-Bit Color stores 65536 values per channel.
+
+32-Bit Float:
+32-Bit Float stores high dynamic range values.
+
+Alpha Transparency:
+Alpha Transparency stores opacity information.
+
+Premultiplied Image:
+A Premultiplied Image stores combined alpha values.
+
+Straight Image:
+A Straight Image stores separate alpha values.
+
+Motion Vector:
+A Motion Vector represents movement direction.
+
+Optical Flow:
+Optical Flow estimates motion between frames.
+
+Frame Blending:
+Frame Blending smooths animation playback.
+
+Time Stretching:
+Time Stretching changes animation duration.
+
+Proxy Media:
+Proxy Media uses lower-resolution files for editing.
+
+Cache Playback:
+Cache Playback stores data for smoother previews.
+
+Disk Cache:
+Disk Cache stores temporary data on storage devices.
+
+Memory Cache:
+Memory Cache stores temporary data in RAM.
+
+Viewport Cache:
+Viewport Cache improves interactive performance.
+
+Simulation Cache:
+Simulation Cache stores physics calculations.
+
+Alembic Cache:
+Alembic Cache stores animated geometry data.
+
+USD Stage:
+A USD Stage represents a scene structure.
+
+Hydra Delegate:
+A Hydra Delegate renders USD scenes.
+
+Open Shading Language:
+Open Shading Language enables programmable shaders.
+
+OSL Script:
+An OSL Script defines custom shading behavior.
+
+Custom Node:
+A Custom Node performs user-defined operations.
+
+Procedural Workflow:
+A Procedural Workflow generates content algorithmically.
+
+Destructive Workflow:
+A Destructive Workflow permanently alters geometry.
+
+Non-Destructive Workflow:
+A Non-Destructive Workflow preserves editability.
+
+Modifier Stack:
+The Modifier Stack determines modifier evaluation order.
+
+Evaluation Order:
+Evaluation Order controls processing sequence.
+
+Dependency Cycle:
+A Dependency Cycle occurs when objects depend on each other.
+
+Scene Graph:
+A Scene Graph organizes object relationships.
+
+Hierarchical Transform:
+A Hierarchical Transform inherits parent transformations.
+
+Parent Space:
+Parent Space uses parent object coordinates.
+
+World Space:
+World Space uses global scene coordinates.
+
+Local Space:
+Local Space uses object-specific coordinates.
+
+View Space:
+View Space uses camera-relative coordinates.
+
+Tangent Space:
+Tangent Space aligns data to surface directions.
+
+Normal Map Baking:
+Normal Map Baking transfers high-detail information to textures.
+
+High Poly Model:
+A High Poly Model contains a large number of polygons.
+
+Low Poly Model:
+A Low Poly Model contains a reduced number of polygons.
+
+Game Optimization:
+Game Optimization improves real-time performance.
+
+Asset Optimization:
+Asset Optimization reduces resource consumption.
+
+Performance Profiling:
+Performance Profiling identifies bottlenecks in a project.
+
+Quad Draw:
+Quad Draw is a retopology technique for creating clean quad topology.
+
+Retopo Mesh:
+A Retopo Mesh is a low-poly mesh built over a reference model.
+
+Shrinkwrap Retopo:
+Shrinkwrap Retopo uses projection onto a target surface.
+
+Edge Flow:
+Edge Flow describes how edges follow surface contours.
+
+Support Loop:
+A Support Loop maintains sharp edges after subdivision.
+
+Subdivision Modeling:
+Subdivision Modeling creates smooth surfaces from low-poly meshes.
+
+Hard Surface Modeling:
+Hard Surface Modeling focuses on mechanical objects.
+
+Organic Modeling:
+Organic Modeling focuses on natural forms and characters.
+
+Kitbash:
+Kitbash combines existing assets into new models.
+
+Modular Asset:
+A Modular Asset is designed for reusable construction.
+
+Trim Sheet:
+A Trim Sheet contains reusable texture details.
+
+Decal:
+A Decal adds surface detail without modifying geometry.
+
+Floating Geometry:
+Floating Geometry sits above a surface to add detail.
+
+Chamfer:
+A Chamfer creates a beveled edge.
+
+Creased Edge:
+A Creased Edge resists smoothing during subdivision.
+
+Topology Loop:
+A Topology Loop follows the shape of a model.
+
+Edge Density:
+Edge Density describes polygon concentration.
+
+Mesh Resolution:
+Mesh Resolution determines geometric detail.
+
+Adaptive Topology:
+Adaptive Topology adds detail where needed.
+
+Voxel Size:
+Voxel Size determines remesh resolution.
+
+Sculpt Layer:
+A Sculpt Layer stores sculpting changes separately.
+
+Detail Flood Fill:
+Detail Flood Fill applies uniform sculpt detail.
+
+Face Set Boundary:
+A Face Set Boundary separates sculpt regions.
+
+Mask Expand:
+Mask Expand grows a sculpt mask.
+
+Mask Shrink:
+Mask Shrink reduces a sculpt mask.
+
+Pose Falloff:
+Pose Falloff controls deformation influence.
+
+Elastic Deform:
+Elastic Deform simulates flexible movement.
+
+Snake Hook:
+Snake Hook extends geometry during sculpting.
+
+Flatten Brush:
+Flatten Brush levels surface areas.
+
+Layer Brush:
+Layer Brush builds up a fixed height.
+
+Scrape Brush:
+Scrape Brush removes surface material.
+
+Multiplane Scrape:
+Multiplane Scrape creates hard-surface forms.
+
+Draw Sharp:
+Draw Sharp creates crisp sculpted details.
+
+Boundary Brush:
+Boundary Brush deforms geometry near borders.
+
+Cloth Brush:
+Cloth Brush simulates fabric deformation.
+
+Paint Mask:
+Paint Mask restricts editing areas.
+
+Vertex Mask:
+Vertex Mask uses vertex groups as masks.
+
+Face Mask:
+Face Mask isolates selected faces.
+
+Color Palette:
+A Color Palette stores reusable colors.
+
+Brush Preset:
+A Brush Preset stores brush configurations.
+
+Texture Brush:
+A Texture Brush applies image-based effects.
+
+Brush Texture:
+A Brush Texture modifies stroke appearance.
+
+Stroke Method:
+Stroke Method determines brush application behavior.
+
+Airbrush Stroke:
+Airbrush Stroke continuously applies paint.
+
+Anchored Stroke:
+Anchored Stroke scales from a fixed point.
+
+Drag Dot Stroke:
+Drag Dot Stroke places brush effects manually.
+
+Line Stroke:
+Line Stroke creates straight brush strokes.
+
+Curve Stroke:
+Curve Stroke follows a custom path.
+
+Stabilized Stroke:
+Stabilized Stroke smooths hand movement.
+
+Pressure Sensitivity:
+Pressure Sensitivity responds to tablet pressure.
+
+Tablet Input:
+Tablet Input enables pen-based workflows.
+
+Grease Pencil Layer:
+A Grease Pencil Layer organizes drawings.
+
+Grease Pencil Material:
+A Grease Pencil Material defines stroke appearance.
+
+Stroke Thickness:
+Stroke Thickness controls line width.
+
+Fill Opacity:
+Fill Opacity controls fill transparency.
+
+Layer Opacity:
+Layer Opacity controls layer visibility strength.
+
+Layer Blend Mode:
+Layer Blend Mode defines compositing behavior.
+
+Stroke Placement:
+Stroke Placement determines drawing location.
+
+Surface Drawing:
+Surface Drawing places strokes on geometry.
+
+3D Cursor Drawing:
+3D Cursor Drawing uses the cursor as reference.
+
+Object Drawing:
+Object Drawing places strokes relative to objects.
+
+Canvas Mode:
+Canvas Mode uses a drawing surface.
+
+Storyboard Panel:
+Storyboard Panel organizes visual planning.
+
+Grease Pencil Modifier:
+A Grease Pencil Modifier procedurally affects drawings.
+
+Line Art:
+Line Art generates strokes from 3D geometry.
+
+Line Art Modifier:
+Line Art Modifier creates outline drawings.
+
+Build Modifier GP:
+Build Modifier GP animates stroke appearance.
+
+Noise Modifier GP:
+Noise Modifier GP adds randomness to strokes.
+
+Tint Modifier GP:
+Tint Modifier GP changes stroke colors.
+
+Opacity Modifier GP:
+Opacity Modifier GP adjusts transparency.
+
+Thickness Modifier GP:
+Thickness Modifier GP changes stroke width.
+
+Time Offset GP:
+Time Offset GP shifts drawing timing.
+
+Vertex Group Mask:
+Vertex Group Mask limits effects to vertices.
+
+Armature GP:
+Armature GP deforms Grease Pencil drawings.
+
+Curve Influence:
+Curve Influence controls deformation strength.
+
+Bezier Handle:
+A Bezier Handle controls curve shape.
+
+Auto Handle:
+An Auto Handle creates smooth curve transitions.
+
+Vector Handle:
+A Vector Handle creates sharp curve corners.
+
+Aligned Handle:
+An Aligned Handle maintains smooth continuity.
+
+Free Handle:
+A Free Handle moves independently.
+
+Curve Resolution:
+Curve Resolution controls curve smoothness.
+
+Spline:
+A Spline is a mathematical curve segment.
+
+Polyline:
+A Polyline is a curve made of straight segments.
+
+Cyclic Curve:
+A Cyclic Curve forms a closed loop.
+
+Curve Bevel:
+Curve Bevel adds thickness to curves.
+
+Curve Extrusion:
+Curve Extrusion adds depth to curves.
+
+Taper Object:
+A Taper Object controls curve thickness variation.
+
+Bevel Object:
+A Bevel Object defines curve profile shapes.
+
+Path Constraint:
+A Path Constraint moves objects along curves.
+
+Curve Radius:
+Curve Radius controls local thickness.
+
+Curve Tilt:
+Curve Tilt rotates curve sections.
+
+Particle System Modifier:
+A Particle System Modifier generates particles from geometry.
+
+Particle Settings:
+Particle Settings control particle behavior.
+
+Particle Lifetime:
+Particle Lifetime determines how long particles exist.
+
+Particle Velocity:
+Particle Velocity controls particle movement speed.
+
+Particle Rotation:
+Particle Rotation controls particle orientation.
+
+Particle Size:
+Particle Size determines particle scale.
+
+Particle Randomness:
+Particle Randomness introduces variation between particles.
+
+Particle Seed:
+A Particle Seed generates unique particle distributions.
+
+Emitter Geometry:
+Emitter Geometry releases particles from a surface.
+
+Vertex Emission:
+Vertex Emission emits particles from vertices.
+
+Face Emission:
+Face Emission emits particles from faces.
+
+Volume Emission:
+Volume Emission emits particles from object volume.
+
+Particle Instance Object:
+A Particle Instance Object is duplicated as particles.
+
+Particle Collection:
+A Particle Collection provides multiple instanced objects.
+
+Render As Object:
+Render As Object displays particles as objects.
+
+Render As Collection:
+Render As Collection displays particles from a collection.
+
+Particle Children:
+Particle Children create additional particles from parents.
+
+Interpolated Children:
+Interpolated Children are generated between parent particles.
+
+Simple Children:
+Simple Children are directly attached to parent particles.
+
+Clump Factor:
+Clump Factor pulls child particles together.
+
+Roughness Factor:
+Roughness Factor adds randomness to particle distribution.
+
+Kink Type:
+Kink Type modifies particle strand shape.
+
+Hair Strand:
+A Hair Strand represents a simulated hair particle.
+
+Hair Shape:
+Hair Shape controls strand thickness.
+
+Root Radius:
+Root Radius defines strand thickness at the base.
+
+Tip Radius:
+Tip Radius defines strand thickness at the tip.
+
+Hair Grooming:
+Hair Grooming styles particle hair systems.
+
+Comb Tool:
+Comb Tool brushes hair strands.
+
+Cut Tool:
+Cut Tool shortens hair strands.
+
+Length Tool:
+Length Tool adjusts strand length.
+
+Puff Tool:
+Puff Tool adds volume to hair.
+
+Smooth Tool:
+Smooth Tool relaxes strand irregularities.
+
+Weight Tool:
+Weight Tool adjusts particle influence.
+
+Particle Edit Mode:
+Particle Edit Mode edits particle systems directly.
+
+Boid Simulation:
+Boid Simulation creates flocking behavior.
+
+Boid Rule:
+A Boid Rule controls flock movement.
+
+Goal Rule:
+A Goal Rule attracts boids to a target.
+
+Avoid Rule:
+An Avoid Rule prevents collisions.
+
+Follow Leader:
+Follow Leader makes boids follow another boid.
+
+Predator Rule:
+A Predator Rule causes chase behavior.
+
+Physics Type:
+Physics Type defines particle simulation behavior.
+
+Newtonian Physics:
+Newtonian Physics simulates real-world motion.
+
+Keyed Physics:
+Keyed Physics allows particles to move between targets.
+
+Fluid Physics:
+Fluid Physics simulates liquid-like particle behavior.
+
+Particle Cache:
+Particle Cache stores simulation results.
+
+Particle Bake:
+Particle Bake calculates and saves simulations.
+
+Hair Dynamics Solver:
+Hair Dynamics Solver calculates strand motion.
+
+Hair Collision:
+Hair Collision prevents strand intersections.
+
+Pin Stiffness:
+Pin Stiffness controls root attachment strength.
+
+Bending Stiffness:
+Bending Stiffness controls strand flexibility.
+
+Air Drag:
+Air Drag simulates air resistance.
+
+Internal Springs:
+Internal Springs preserve strand shape.
+
+Cloth Preset:
+A Cloth Preset stores cloth simulation settings.
+
+Cloth Quality Steps:
+Cloth Quality Steps improve simulation accuracy.
+
+Cloth Damping:
+Cloth Damping reduces excessive movement.
+
+Cloth Pressure:
+Cloth Pressure inflates cloth surfaces.
+
+Cloth Sewing:
+Cloth Sewing pulls edges together.
+
+Structural Springs:
+Structural Springs maintain cloth shape.
+
+Shear Springs:
+Shear Springs resist diagonal stretching.
+
+Bending Springs:
+Bending Springs resist folding.
+
+Cloth Collider:
+A Cloth Collider interacts with fabric simulations.
+
+Collision Distance:
+Collision Distance defines contact spacing.
+
+Self Distance:
+Self Distance prevents cloth self-intersection.
+
+Soft Body Goal:
+Soft Body Goal keeps vertices near original positions.
+
+Soft Body Edge:
+Soft Body Edge connects simulated vertices.
+
+Soft Body Friction:
+Soft Body Friction slows motion.
+
+Soft Body Mass:
+Soft Body Mass determines simulation weight.
+
+Soft Body Aerodynamics:
+Soft Body Aerodynamics simulates airflow effects.
+
+Soft Body Solver:
+Soft Body Solver calculates deformation.
+
+Rigid Body Shape:
+Rigid Body Shape defines collision boundaries.
+
+Box Collision:
+Box Collision uses a box-shaped collider.
+
+Sphere Collision:
+Sphere Collision uses a spherical collider.
+
+Mesh Collision:
+Mesh Collision uses detailed mesh geometry.
+
+Convex Hull Collision:
+Convex Hull Collision uses a simplified outer shell.
+
+Rigid Body Mass:
+Rigid Body Mass determines object weight.
+
+Rigid Body Friction:
+Rigid Body Friction affects surface resistance.
+
+Rigid Body Restitution:
+Rigid Body Restitution controls bounciness.
+
+Rigid Body Damping:
+Rigid Body Damping reduces motion over time.
+
+Linear Damping:
+Linear Damping slows movement velocity.
+
+Angular Damping:
+Angular Damping slows rotational velocity.
+
+Rigid Body Constraint:
+A Rigid Body Constraint connects physics objects.
+
+Fixed Constraint:
+A Fixed Constraint locks relative movement.
+
+Point Constraint:
+A Point Constraint allows pivoting around a point.
+
+Slider Constraint:
+A Slider Constraint allows movement along one axis.
+
+Piston Constraint:
+A Piston Constraint combines sliding and rotation.
+
+Motor Constraint:
+A Motor Constraint applies rotational force.
+
+Generic Constraint:
+A Generic Constraint allows custom movement limits.
+
+Simulation Substeps:
+Simulation Substeps improve calculation accuracy.
+
+Physics Time Scale:
+Physics Time Scale changes simulation speed.
+
+Cache Compression:
+Cache Compression reduces storage requirements.
+
+Simulation Replay:
+Simulation Replay previews cached simulations.
+
+Mantaflow:
+Mantaflow is Blender's fluid and smoke simulation framework.
+
+Fluid Domain:
+A Fluid Domain defines the simulation area for fluids.
+
+Fluid Flow:
+A Fluid Flow generates liquid, smoke or fire.
+
+Fluid Effector:
+A Fluid Effector influences fluid simulations.
+
+Liquid Simulation:
+Liquid Simulation creates realistic fluid behavior.
+
+Liquid Domain:
+A Liquid Domain stores liquid simulation data.
+
+Liquid Mesh:
+A Liquid Mesh converts fluid particles into geometry.
+
+Mesh Generation:
+Mesh Generation creates surfaces from simulation particles.
+
+Particle Radius:
+Particle Radius affects fluid surface smoothness.
+
+FLIP Solver:
+FLIP Solver is used for liquid simulations.
+
+Fluid Cache:
+Fluid Cache stores simulation data.
+
+Adaptive Domain:
+Adaptive Domain adjusts domain size dynamically.
+
+Obstacle Object:
+An Obstacle Object blocks fluid movement.
+
+Inflow Object:
+An Inflow Object continuously emits fluid.
+
+Outflow Object:
+An Outflow Object removes fluid from the simulation.
+
+Fluid Surface:
+A Fluid Surface represents visible liquid geometry.
+
+Fluid Velocity:
+Fluid Velocity determines movement speed.
+
+Fluid Viscosity:
+Fluid Viscosity controls liquid thickness.
+
+Viscosity Preset:
+A Viscosity Preset defines common fluid types.
+
+Surface Tension:
+Surface Tension keeps fluid particles together.
+
+Fluid Sampling:
+Fluid Sampling affects simulation accuracy.
+
+Smoke Simulation:
+Smoke Simulation creates gaseous effects.
+
+Smoke Domain:
+A Smoke Domain contains smoke calculations.
+
+Smoke Flow:
+A Smoke Flow emits smoke into the simulation.
+
+Smoke Density:
+Smoke Density controls smoke thickness.
+
+Smoke Color:
+Smoke Color defines smoke appearance.
+
+Smoke Dissolve:
+Smoke Dissolve gradually removes smoke over time.
+
+Fire Simulation:
+Fire Simulation generates flames and heat effects.
+
+Fire Intensity:
+Fire Intensity controls flame strength.
+
+Fuel Amount:
+Fuel Amount determines burn duration.
+
+Reaction Speed:
+Reaction Speed controls combustion rate.
+
+Flame Vorticity:
+Flame Vorticity adds swirling motion.
+
+Temperature Field:
+Temperature Field stores heat information.
+
+Heat Dissipation:
+Heat Dissipation reduces temperature over time.
+
+Buoyancy:
+Buoyancy causes hot smoke to rise.
+
+Noise Simulation:
+Noise Simulation adds small-scale detail.
+
+Wavelet Turbulence:
+Wavelet Turbulence enhances smoke realism.
+
+Guiding:
+Guiding directs fluid movement toward a target.
+
+Guide Object:
+A Guide Object influences simulation flow.
+
+Domain Resolution:
+Domain Resolution controls simulation detail.
+
+Adaptive Timesteps:
+Adaptive Timesteps improve simulation stability.
+
+OpenVDB:
+OpenVDB stores volumetric simulation data.
+
+Volume Grid:
+A Volume Grid stores voxel information.
+
+Voxel Resolution:
+Voxel Resolution determines volume detail.
+
+Volume Object:
+A Volume Object displays volumetric data.
+
+Volume Shader:
+A Volume Shader defines volume appearance.
+
+Volume Density:
+Volume Density controls volume opacity.
+
+Volume Temperature:
+Volume Temperature affects fire shading.
+
+Principled Volume:
+Principled Volume is a physically based volume shader.
+
+Volume Step Rate:
+Volume Step Rate controls rendering precision.
+
+Volume Scatter Color:
+Volume Scatter Color affects scattered light.
+
+Blackbody Intensity:
+Blackbody Intensity controls thermal emission.
+
+Dynamic Paint Canvas:
+A Dynamic Paint Canvas receives paint effects.
+
+Dynamic Paint Brush:
+A Dynamic Paint Brush applies effects to surfaces.
+
+Paint Surface:
+A Paint Surface stores Dynamic Paint results.
+
+Wet Map:
+A Wet Map stores moisture information.
+
+Paint Map:
+A Paint Map stores color information.
+
+Wave Surface:
+A Wave Surface generates ripple effects.
+
+Dry Time:
+Dry Time determines how quickly paint disappears.
+
+Displace Surface:
+A Displace Surface modifies geometry height.
+
+Brush Velocity:
+Brush Velocity influences paint intensity.
+
+Dynamic Paint Output:
+Dynamic Paint Output stores generated data.
+
+Wave Factor:
+Wave Factor controls ripple strength.
+
+Compositing:
+Compositing combines and processes rendered images.
+
+Node Compositing:
+Node Compositing uses connected nodes for image processing.
+
+Render Layer Node:
+A Render Layer Node imports render passes.
+
+Composite Node:
+A Composite Node outputs the final image.
+
+Viewer Node:
+A Viewer Node previews compositing results.
+
+Image Node:
+An Image Node imports image files.
+
+Blur Node:
+A Blur Node softens image details.
+
+Gaussian Blur:
+Gaussian Blur creates smooth blur effects.
+
+Bilateral Blur:
+Bilateral Blur preserves edges while blurring.
+
+Filter Node:
+A Filter Node applies image filters.
+
+Sharpen Filter:
+A Sharpen Filter enhances image detail.
+
+Pixelate Node:
+A Pixelate Node creates blocky image effects.
+
+Transform Node:
+A Transform Node moves or scales images.
+
+Translate Node:
+A Translate Node shifts image position.
+
+Rotate Node:
+A Rotate Node rotates image data.
+
+Scale Node:
+A Scale Node changes image dimensions.
+
+Lens Flare:
+A Lens Flare simulates camera light artifacts.
+
+Color Correction:
+Color Correction adjusts image appearance.
+
+Hue Saturation Node:
+A Hue Saturation Node modifies color intensity.
+
+RGB Curves Node:
+An RGB Curves Node adjusts tonal ranges.
+
+Color Ramp Node:
+A Color Ramp Node remaps values to colors.
+
+Keying Node:
+A Keying Node removes green or blue screens.
+
+Chroma Key:
+A Chroma Key isolates backgrounds based on color.
+
+Mask Node:
+A Mask Node creates selection areas.
+
+Track Position Node:
+A Track Position Node uses motion tracking data.
+
+Movie Clip Node:
+A Movie Clip Node imports tracked footage.
+
+VFX Workflow:
+A VFX Workflow combines CGI with live-action footage.
+
+Match Moving:
+Match Moving aligns CGI with camera movement.
+
+Set Extension:
+Set Extension expands environments using CGI.
+
+Python Console:
+The Python Console allows direct execution of Python commands in Blender.
+
+Blender Python API:
+The Blender Python API provides access to Blender data and tools.
+
+bpy Module:
+The bpy module is the primary Blender Python package.
+
+bpy.data:
+bpy.data provides access to Blender data blocks.
+
+bpy.context:
+bpy.context provides information about the current state.
+
+bpy.ops:
+bpy.ops executes Blender operators through Python.
+
+bpy.types:
+bpy.types defines Blender classes and structures.
+
+bpy.props:
+bpy.props creates custom properties for addons.
+
+bpy.utils:
+bpy.utils contains utility functions for addon development.
+
+Data Block Access:
+Data Block Access allows scripts to read and modify data.
+
+Object Collection:
+An Object Collection stores references to scene objects.
+
+Scene Access:
+Scene Access retrieves scene information through Python.
+
+Active Object:
+The Active Object is the currently selected working object.
+
+Selected Objects:
+Selected Objects represent all currently selected items.
+
+Custom Operator:
+A Custom Operator performs user-defined actions.
+
+Operator Execute:
+Operator Execute runs the main operator logic.
+
+Operator Poll:
+Operator Poll determines if an operator can run.
+
+Operator Invoke:
+Operator Invoke handles user interaction.
+
+Operator Modal:
+Operator Modal runs continuously while active.
+
+Addon Registration:
+Addon Registration makes custom classes available.
+
+Class Registration:
+Class Registration adds Python classes to Blender.
+
+Unregister Function:
+An Unregister Function removes registered classes.
+
+Panel Creation:
+Panel Creation adds custom interface panels.
+
+Panel Category:
+A Panel Category organizes UI tabs.
+
+UILayout:
+UILayout builds Blender user interfaces.
+
+Property Panel:
+A Property Panel displays editable settings.
+
+Custom Property:
+A Custom Property stores user-defined values.
+
+String Property:
+A String Property stores text data.
+
+Int Property:
+An Int Property stores integer values.
+
+Float Property:
+A Float Property stores decimal values.
+
+Bool Property:
+A Bool Property stores true or false values.
+
+Enum Property:
+An Enum Property stores selectable options.
+
+Pointer Property:
+A Pointer Property references another data block.
+
+Collection Property:
+A Collection Property stores multiple entries.
+
+Property Update:
+Property Update executes code when values change.
+
+Addon Preferences:
+Addon Preferences store addon settings.
+
+Menu Class:
+A Menu Class creates custom menus.
+
+Pie Menu:
+A Pie Menu displays radial options.
+
+Header Extension:
+A Header Extension adds tools to editor headers.
+
+Keymap:
+A Keymap defines keyboard shortcuts.
+
+Keymap Item:
+A Keymap Item stores a shortcut definition.
+
+Event System:
+The Event System handles user input.
+
+Modal Event:
+A Modal Event occurs during modal operation.
+
+Context Override:
+A Context Override temporarily changes execution context.
+
+Dependency Graph API:
+The Dependency Graph API evaluates scene changes.
+
+Evaluated Object:
+An Evaluated Object contains calculated results.
+
+Message Bus:
+The Message Bus notifies scripts about changes.
+
+App Handler:
+An App Handler runs code during specific events.
+
+Load Handler:
+A Load Handler executes after opening a file.
+
+Save Handler:
+A Save Handler executes before or after saving.
+
+Frame Change Handler:
+A Frame Change Handler runs when frames change.
+
+Render Handler:
+A Render Handler executes during rendering.
+
+Persistent Handler:
+A Persistent Handler survives file reloads.
+
+Timer Function:
+A Timer Function executes periodically.
+
+Background Process:
+A Background Process runs without user interaction.
+
+Thread Safety:
+Thread Safety prevents data conflicts.
+
+RNA:
+RNA is Blender's data definition system.
+
+Operator Context:
+Operator Context controls execution behavior.
+
+Report System:
+The Report System displays messages to users.
+
+Info Log:
+The Info Log records executed actions.
+
+Script Workspace:
+The Script Workspace is optimized for coding.
+
+Text Data Block:
+A Text Data Block stores scripts inside Blender.
+
+Run Script:
+Run Script executes code from the text editor.
+
+Auto Run Scripts:
+Auto Run Scripts allow trusted scripts to execute automatically.
+
+Addon Package:
+An Addon Package groups addon files.
+
+bl_info:
+bl_info contains addon metadata.
+
+Version Number:
+A Version Number identifies addon releases.
+
+Addon Installer:
+The Addon Installer loads external addons.
+
+Module Reload:
+Module Reload refreshes Python code.
+
+Import Statement:
+An Import Statement loads Python modules.
+
+Python Exception:
+A Python Exception reports an error.
+
+Try Except:
+Try Except handles exceptions safely.
+
+Debugging:
+Debugging identifies and fixes code issues.
+
+Console Output:
+Console Output displays script messages.
+
+Logging:
+Logging records program activity.
+
+File Browser API:
+The File Browser API interacts with file selection dialogs.
+
+Custom Icon:
+A Custom Icon provides visual identification.
+
+Node API:
+The Node API creates and modifies node systems.
+
+Geometry Nodes API:
+The Geometry Nodes API manipulates procedural node networks.
+
+Shader API:
+The Shader API modifies material node trees.
+
+Asset API:
+The Asset API manages reusable assets.
+
+GPU Module:
+The GPU Module provides low-level drawing functions.
+
+Draw Handler:
+A Draw Handler renders custom viewport graphics.
+
+Viewport Overlay API:
+The Viewport Overlay API extends viewport visualization.
+
+Gizmo API:
+The Gizmo API creates interactive controls.
+
+Custom Gizmo:
+A Custom Gizmo provides specialized interaction tools.
+
+Tool System API:
+The Tool System API creates custom Blender tools.
+
+Operator Macro:
+An Operator Macro combines multiple operators.
+
+Batch Processing:
+Batch Processing automates repetitive tasks.
+
+Pipeline Automation:
+Pipeline Automation streamlines production workflows.
+
+Scene Generator:
+A Scene Generator creates scenes procedurally.
+
+Asset Builder:
+An Asset Builder creates reusable production assets.
+
+Geometry Nodes Tree:
+A Geometry Nodes Tree contains procedural geometry operations.
+
+Geometry Socket:
+A Geometry Socket transfers geometry data between nodes.
+
+Field Context:
+A Field Context determines how fields are evaluated.
+
+Anonymous Attribute:
+An Anonymous Attribute exists temporarily during node evaluation.
+
+Domain:
+A Domain defines where geometry data is stored.
+
+Point Domain:
+The Point Domain stores data per point.
+
+Edge Domain:
+The Edge Domain stores data per edge.
+
+Face Domain:
+The Face Domain stores data per face.
+
+Corner Domain:
+The Corner Domain stores data per face corner.
+
+Spline Domain:
+The Spline Domain stores data per curve spline.
+
+Instance Domain:
+The Instance Domain stores data per instance.
+
+Domain Interpolation:
+Domain Interpolation converts attributes between domains.
+
+Attribute Transfer:
+Attribute Transfer moves data between geometries.
+
+Attribute Capture:
+Attribute Capture stores field results for later use.
+
+Field Evaluation:
+Field Evaluation calculates values across geometry.
+
+Lazy Evaluation:
+Lazy Evaluation computes values only when required.
+
+Node Evaluation:
+Node Evaluation processes node outputs.
+
+Procedural Generation:
+Procedural Generation creates content algorithmically.
+
+Procedural Modeling:
+Procedural Modeling builds geometry through rules.
+
+Scatter System:
+A Scatter System distributes objects procedurally.
+
+Point Distribution:
+Point Distribution generates placement points.
+
+Poisson Distribution:
+Poisson Distribution creates evenly spaced points.
+
+Density Map:
+A Density Map controls object placement frequency.
+
+Instance Rotation:
+Instance Rotation controls orientation of instances.
+
+Instance Scale:
+Instance Scale controls instance size.
+
+Instance Index:
+Instance Index identifies individual instances.
+
+Random Rotation:
+Random Rotation varies orientation automatically.
+
+Random Scale:
+Random Scale varies object size automatically.
+
+Align Euler to Vector:
+Align Euler to Vector orients geometry along a direction.
+
+Rotate Instances:
+Rotate Instances changes instance orientation.
+
+Scale Instances:
+Scale Instances changes instance size.
+
+Translate Instances:
+Translate Instances changes instance position.
+
+Instance Collection:
+An Instance Collection references grouped assets.
+
+Collection Information:
+Collection Information retrieves collection data.
+
+Object Information:
+Object Information retrieves object data.
+
+Geometry Proximity:
+Geometry Proximity measures distance to geometry.
+
+Shortest Edge Path:
+Shortest Edge Path calculates optimal routes.
+
+Edge Neighbors:
+Edge Neighbors identifies adjacent edges.
+
+Face Neighbors:
+Face Neighbors identifies adjacent faces.
+
+Topology Analysis:
+Topology Analysis examines mesh structure.
+
+Mesh Connectivity:
+Mesh Connectivity describes connected geometry.
+
+Mesh Boundary:
+A Mesh Boundary marks open mesh edges.
+
+Boundary Edge:
+A Boundary Edge belongs to only one face.
+
+Non-Manifold Edge:
+A Non-Manifold Edge breaks manifold topology.
+
+Selection Field:
+A Selection Field determines affected geometry.
+
+Boolean Selection:
+Boolean Selection uses true or false values.
+
+Attribute Statistic Node:
+Attribute Statistic Node calculates geometry metrics.
+
+Accumulate Field Node:
+Accumulate Field Node builds cumulative values.
+
+Index Node:
+An Index Node outputs element indices.
+
+ID Node:
+An ID Node outputs stable identifiers.
+
+Position Node:
+A Position Node outputs geometry coordinates.
+
+Normal Node:
+A Normal Node outputs surface directions.
+
+Tangent Node:
+A Tangent Node outputs tangent directions.
+
+Curve Tangent:
+Curve Tangent outputs curve direction vectors.
+
+Curve Normal:
+Curve Normal outputs curve normal vectors.
+
+Curve Length:
+Curve Length measures spline length.
+
+Curve Parameter:
+Curve Parameter provides normalized curve position.
+
+Spline Length:
+Spline Length measures individual spline distance.
+
+Resample Count:
+Resample Count specifies curve point quantity.
+
+Resample Length:
+Resample Length specifies point spacing.
+
+Trim Curve:
+Trim Curve shortens a curve section.
+
+Reverse Curve:
+Reverse Curve flips spline direction.
+
+Fillet Curve:
+Fillet Curve rounds sharp curve corners.
+
+Offset Curve:
+Offset Curve creates parallel curves.
+
+Subdivide Curve:
+Subdivide Curve adds additional curve points.
+
+Curve Handle Type:
+Curve Handle Type controls spline interpolation.
+
+Bezier Segment:
+A Bezier Segment forms part of a Bezier curve.
+
+Curve Resolution Node:
+A Curve Resolution Node adjusts smoothness.
+
+Mesh Subdivision Node:
+A Mesh Subdivision Node increases geometry density.
+
+Dual Mesh:
+Dual Mesh generates an alternative topology structure.
+
+Mesh to Volume:
+Mesh to Volume converts geometry into voxels.
+
+Volume to Mesh:
+Volume to Mesh converts voxels into geometry.
+
+Points to Volume:
+Points to Volume generates volumetric data.
+
+Distribute Points on Faces:
+Distribute Points on Faces scatters points across surfaces.
+
+Points to Curves:
+Points to Curves generates splines from points.
+
+Points to Vertices:
+Points to Vertices converts points into mesh vertices.
+
+Convex Hull Node:
+A Convex Hull Node creates enclosing geometry.
+
+Extrude Mesh Node:
+An Extrude Mesh Node procedurally extends geometry.
+
+Inset Faces Node:
+An Inset Faces Node creates inner face borders.
+
+Merge by Distance:
+Merge by Distance combines nearby vertices.
+
+Delete Geometry Node:
+Delete Geometry Node removes selected elements.
+
+Separate Components:
+Separate Components splits geometry types.
+
+Join Geometry Node:
+Join Geometry Node combines geometry streams.
+
+Simulation Input:
+Simulation Input provides data entering a simulation zone.
+
+Simulation Output:
+Simulation Output provides data leaving a simulation zone.
+
+Simulation State:
+Simulation State stores evolving data.
+
+Repeat Input:
+Repeat Input starts a repeat zone.
+
+Repeat Output:
+Repeat Output ends a repeat zone.
+
+Procedural Asset:
+A Procedural Asset generates reusable content through rules.
+
+Node Asset Library:
+A Node Asset Library stores reusable node systems.
+
+Geometry Template:
+A Geometry Template provides a reusable procedural setup.
+
+Shader Graph:
+A Shader Graph is a network of connected shader nodes.
+
+Material Workflow:
+A Material Workflow defines how materials are created and managed.
+
+PBR Material:
+A PBR Material follows physically based rendering principles.
+
+Energy Conservation:
+Energy Conservation prevents materials from reflecting more light than they receive.
+
+BRDF:
+BRDF describes how light reflects from a surface.
+
+Microfacet Model:
+A Microfacet Model simulates microscopic surface structure.
+
+Specular Reflection:
+Specular Reflection creates mirror-like highlights.
+
+Diffuse Lighting:
+Diffuse Lighting scatters light evenly across a surface.
+
+Subsurface Radius:
+Subsurface Radius controls light penetration distance.
+
+Subsurface Color:
+Subsurface Color defines internal scattering color.
+
+IOR:
+IOR stands for Index of Refraction.
+
+Refraction Depth:
+Refraction Depth controls light travel through materials.
+
+Thin Film:
+Thin Film simulates iridescent surface effects.
+
+Iridescence:
+Iridescence creates color shifts based on viewing angle.
+
+Coating Layer:
+A Coating Layer adds an additional reflective surface.
+
+Clearcoat Roughness:
+Clearcoat Roughness controls coating reflections.
+
+Sheen:
+Sheen simulates soft fabric reflections.
+
+Sheen Tint:
+Sheen Tint adjusts fabric reflection color.
+
+Transmission Roughness:
+Transmission Roughness blurs refracted light.
+
+Absorption Color:
+Absorption Color defines color loss through materials.
+
+Volume Absorption Shader:
+Volume Absorption Shader darkens light through volumes.
+
+Volume Scatter Shader:
+Volume Scatter Shader redirects light within volumes.
+
+Phase Function:
+A Phase Function controls scattering direction.
+
+Anisotropy:
+Anisotropy controls directional scattering behavior.
+
+Emission Shader:
+Emission Shader generates light from surfaces.
+
+Light Strength:
+Light Strength controls emitted energy.
+
+Shadow Terminator:
+Shadow Terminator artifacts appear on low-poly surfaces.
+
+Normal Smoothing:
+Normal Smoothing improves shading continuity.
+
+Custom Split Normals:
+Custom Split Normals define unique shading directions.
+
+Weighted Shading:
+Weighted Shading improves hard surface appearance.
+
+Reflection Vector:
+A Reflection Vector describes reflected light direction.
+
+Refraction Vector:
+A Refraction Vector describes refracted light direction.
+
+Fresnel Effect:
+The Fresnel Effect increases reflections at grazing angles.
+
+Edge Wear Material:
+An Edge Wear Material simulates worn edges.
+
+Procedural Wear:
+Procedural Wear generates aging effects automatically.
+
+Dust Mask:
+A Dust Mask places dust in sheltered areas.
+
+Curvature Map:
+A Curvature Map stores surface curvature information.
+
+Ambient Occlusion Map:
+An Ambient Occlusion Map stores local shadowing.
+
+Cavity Map:
+A Cavity Map highlights small surface details.
+
+World Shader:
+A World Shader controls environmental appearance.
+
+Environment Texture:
+An Environment Texture provides image-based lighting.
+
+Sky Texture:
+A Sky Texture generates procedural skies.
+
+Nishita Sky:
+Nishita Sky simulates realistic atmospheric lighting.
+
+Sun Elevation:
+Sun Elevation controls the sun height.
+
+Sun Rotation:
+Sun Rotation controls sun direction.
+
+Atmosphere Density:
+Atmosphere Density controls sky thickness.
+
+Ground Albedo:
+Ground Albedo influences sky reflections.
+
+Cloud Layer:
+A Cloud Layer adds procedural clouds.
+
+Procedural Sky:
+A Procedural Sky generates a sky without textures.
+
+HDR Lighting:
+HDR Lighting uses high dynamic range environments.
+
+Image Based Lighting:
+Image Based Lighting uses images as light sources.
+
+Studio HDRI:
+A Studio HDRI provides controlled lighting environments.
+
+Product Rendering:
+Product Rendering focuses on showcasing objects.
+
+Turntable Animation:
+A Turntable Animation rotates an object for presentation.
+
+Clay Render:
+A Clay Render uses simple materials for previews.
+
+Look Development:
+Look Development refines material appearance.
+
+Lighting Rig:
+A Lighting Rig is a setup of lights for rendering.
+
+Three Point Lighting:
+Three Point Lighting uses key, fill and rim lights.
+
+Key Light:
+A Key Light is the primary light source.
+
+Fill Light:
+A Fill Light softens shadows.
+
+Rim Light:
+A Rim Light separates subjects from backgrounds.
+
+Light Temperature:
+Light Temperature defines light color.
+
+Kelvin Scale:
+The Kelvin Scale measures color temperature.
+
+Soft Shadow:
+A Soft Shadow has blurred edges.
+
+Hard Shadow:
+A Hard Shadow has sharp edges.
+
+Area Shadow:
+An Area Shadow comes from area light sources.
+
+Contact Shadow:
+A Contact Shadow appears where objects touch.
+
+Shadow Bias:
+Shadow Bias reduces shadow artifacts.
+
+Light Falloff:
+Light Falloff describes intensity reduction with distance.
+
+Inverse Square Falloff:
+Inverse Square Falloff follows physical light behavior.
+
+Photometric Lighting:
+Photometric Lighting uses real-world light measurements.
+
+Lumen:
+A Lumen measures visible light output.
+
+Candela:
+A Candela measures light intensity.
+
+Exposure Value:
+Exposure Value represents brightness settings.
+
+Highlight Compression:
+Highlight Compression preserves bright details.
+
+Dynamic Range:
+Dynamic Range describes brightness variation.
+
+Color Grading:
+Color Grading adjusts image mood and tone.
+
+Tone Mapping:
+Tone Mapping converts HDR data for displays.
+
+White Point:
+A White Point defines neutral white color.
+
+Black Point:
+A Black Point defines darkest visible values.
+
+Render Optimization:
+Render Optimization reduces rendering time.
+
+Noise Threshold:
+Noise Threshold determines adaptive sampling limits.
+
+Sample Clamping:
+Sample Clamping reduces fireflies in renders.
+
+Light Tree:
+A Light Tree optimizes complex scene lighting calculations.
+
+Path Guiding:
+Path Guiding improves light sampling efficiency.
+
+UV Workflow:
+A UV Workflow defines the process of creating texture coordinates.
+
+UV Layout:
+A UV Layout represents a flattened version of a mesh.
+
+UV Island:
+A UV Island is a connected group of UV faces.
+
+UV Border:
+A UV Border marks the edge of a UV island.
+
+UV Distortion:
+UV Distortion occurs when texture space is stretched.
+
+UV Stretch:
+UV Stretch indicates uneven texture scaling.
+
+UV Relax:
+UV Relax reduces distortion in UV layouts.
+
+UV Sculpt:
+UV Sculpt modifies UV coordinates interactively.
+
+UV Sync Selection:
+UV Sync Selection links mesh and UV selections.
+
+UV Pin:
+A UV Pin locks UV coordinates in place.
+
+Pinned Vertex:
+A Pinned Vertex remains fixed during UV operations.
+
+Island Rotation:
+Island Rotation changes UV island orientation.
+
+Island Scaling:
+Island Scaling changes UV island size.
+
+Island Packing:
+Island Packing arranges UV islands efficiently.
+
+Average Island Scale:
+Average Island Scale equalizes texel density.
+
+Pack Margin:
+Pack Margin defines spacing between UV islands.
+
+Texel Ratio:
+Texel Ratio measures texture density consistency.
+
+Checker Map:
+A Checker Map reveals UV distortion.
+
+Seam Workflow:
+A Seam Workflow plans UV cutting locations.
+
+Projection Mapping:
+Projection Mapping creates UVs from a projection.
+
+Cube Projection:
+Cube Projection unwraps geometry from six directions.
+
+Cylinder Projection:
+Cylinder Projection unwraps cylindrical objects.
+
+Sphere Projection:
+Sphere Projection unwraps spherical objects.
+
+Smart UV Project:
+Smart UV Project automatically generates UV layouts.
+
+Lightmap UV:
+A Lightmap UV is optimized for baked lighting.
+
+Second UV Channel:
+A Second UV Channel stores alternative UV layouts.
+
+Overlapping UVs:
+Overlapping UVs share texture space.
+
+Mirrored UVs:
+Mirrored UVs reuse texture information symmetrically.
+
+UDIM Tile:
+A UDIM Tile represents a texture region.
+
+UDIM Workflow:
+A UDIM Workflow spreads textures across multiple tiles.
+
+Tile Number:
+A Tile Number identifies a UDIM region.
+
+Texture Set:
+A Texture Set groups related texture maps.
+
+Bake Workflow:
+A Bake Workflow transfers information into textures.
+
+High To Low Bake:
+High To Low Bake transfers detail between meshes.
+
+Normal Bake:
+A Normal Bake generates normal maps.
+
+AO Bake:
+An AO Bake generates ambient occlusion maps.
+
+Curvature Bake:
+A Curvature Bake generates curvature information.
+
+Thickness Bake:
+A Thickness Bake generates thickness information.
+
+ID Bake:
+An ID Bake creates color-based material masks.
+
+Emission Bake:
+An Emission Bake records emissive information.
+
+Combined Bake:
+A Combined Bake stores multiple shading components.
+
+Selected To Active:
+Selected To Active bakes data between objects.
+
+Cage Mesh:
+A Cage Mesh controls baking ray projection.
+
+Ray Distance:
+Ray Distance controls baking projection limits.
+
+Bake Artifact:
+A Bake Artifact is an unwanted baking error.
+
+Projection Error:
+A Projection Error occurs during texture baking.
+
+Texture Workflow:
+A Texture Workflow defines texture creation processes.
+
+Texture Authoring:
+Texture Authoring creates surface textures.
+
+Procedural Texturing:
+Procedural Texturing generates textures mathematically.
+
+Hand Painted Texture:
+A Hand Painted Texture is created manually.
+
+Seamless Texture:
+A Seamless Texture tiles without visible borders.
+
+Texture Variation:
+Texture Variation reduces repetition.
+
+Texture Blending:
+Texture Blending combines multiple textures.
+
+Macro Detail:
+Macro Detail affects large-scale surface appearance.
+
+Micro Detail:
+Micro Detail affects small-scale surface appearance.
+
+Material Library:
+A Material Library stores reusable materials.
+
+Shader Preset:
+A Shader Preset stores reusable shader settings.
+
+Look Library:
+A Look Library stores visual styles.
+
+Asset Browser Workflow:
+An Asset Browser Workflow manages reusable assets.
+
+Character Pipeline:
+A Character Pipeline defines character production stages.
+
+Concept Model:
+A Concept Model visualizes a design idea.
+
+Base Mesh:
+A Base Mesh provides a starting topology.
+
+Character Sculpt:
+A Character Sculpt defines high-detail forms.
+
+Retopology Stage:
+The Retopology Stage creates animation-friendly topology.
+
+UV Stage:
+The UV Stage prepares geometry for texturing.
+
+Texturing Stage:
+The Texturing Stage creates surface appearance.
+
+Rigging Stage:
+The Rigging Stage prepares animation controls.
+
+Animation Stage:
+The Animation Stage creates movement.
+
+Rendering Stage:
+The Rendering Stage generates final images.
+
+Presentation Stage:
+The Presentation Stage showcases completed assets.
+
+Game Ready Asset:
+A Game Ready Asset is optimized for real-time engines.
+
+Hero Asset:
+A Hero Asset receives extra detail and quality.
+
+Background Asset:
+A Background Asset is optimized for distant viewing.
+
+Environment Asset:
+An Environment Asset contributes to world building.
+
+Prop Asset:
+A Prop Asset represents an interactive object.
+
+Modular Environment:
+A Modular Environment uses reusable building pieces.
+
+Trim Workflow:
+A Trim Workflow uses trim sheets efficiently.
+
+Texture Budget:
+A Texture Budget limits texture memory usage.
+
+Polygon Budget:
+A Polygon Budget limits mesh complexity.
+
+Draw Call Budget:
+A Draw Call Budget limits rendering overhead.
+
+Optimization Pass:
+An Optimization Pass improves performance.
+
+Profiling Session:
+A Profiling Session analyzes performance.
+
+Asset Validation:
+Asset Validation verifies production requirements.
+
+Naming Standard:
+A Naming Standard ensures consistent asset names.
+
+Production Checklist:
+A Production Checklist verifies project completion.
+
+Final Delivery:
+Final Delivery provides completed project files.
+
+Portfolio Render:
+A Portfolio Render presents work professionally.
+
+Client Revision:
+A Client Revision modifies delivered work.
+
+Production Approval:
+Production Approval confirms asset readiness.
+
+Version Iteration:
+A Version Iteration tracks project updates.
+
+Master Asset:
+A Master Asset serves as the primary source file.
+
+Source File:
+A Source File contains editable project data.
+
+Export Package:
+An Export Package contains deliverable assets.
+
+Production Tracking:
+Production Tracking monitors project progress and status.
+
+Task Assignment:
+Task Assignment allocates work to team members.
+
+Asset Status:
+Asset Status indicates the current production stage.
+
+Work In Progress:
+Work In Progress describes unfinished assets.
+
+Review Stage:
+The Review Stage evaluates asset quality.
+
+Approval Stage:
+The Approval Stage confirms readiness for production.
+
+Feedback Loop:
+A Feedback Loop incorporates review comments.
+
+Revision Round:
+A Revision Round applies requested changes.
+
+Change Request:
+A Change Request modifies project requirements.
+
+Asset Ownership:
+Asset Ownership identifies responsible artists.
+
+Dependency Asset:
+A Dependency Asset is required by another asset.
+
+Production Milestone:
+A Production Milestone marks a major project goal.
+
+Delivery Deadline:
+A Delivery Deadline specifies completion dates.
+
+Asset Locking:
+Asset Locking prevents simultaneous modifications.
+
+Source Control:
+Source Control manages project versions.
+
+Branch Workflow:
+A Branch Workflow separates development versions.
+
+Merge Conflict:
+A Merge Conflict occurs when changes overlap.
+
+Asset Synchronization:
+Asset Synchronization updates shared files.
+
+Pipeline Tool:
+A Pipeline Tool automates production tasks.
+
+Quality Assurance:
+Quality Assurance verifies production standards.
+
+Technical Review:
+A Technical Review checks implementation quality.
+
+Art Review:
+An Art Review evaluates visual quality.
+
+Performance Review:
+A Performance Review evaluates optimization.
+
+Asset Publishing:
+Asset Publishing distributes approved assets.
+
+Library Update:
+A Library Update refreshes shared resources.
+
+Scene Assembly:
+Scene Assembly combines assets into environments.
+
+Environment Layout:
+Environment Layout arranges world elements.
+
+Set Dressing:
+Set Dressing adds environmental details.
+
+Lighting Pass:
+A Lighting Pass refines scene illumination.
+
+Lookdev Pass:
+A Lookdev Pass refines material appearance.
+
+Animation Review:
+Animation Review evaluates motion quality.
+
+Render Review:
+Render Review evaluates final renders.
+
+Shot Continuity:
+Shot Continuity maintains visual consistency.
+
+Sequence Continuity:
+Sequence Continuity maintains consistency across scenes.
+
+Asset Reuse:
+Asset Reuse reduces production time.
+
+Template Scene:
+A Template Scene provides a reusable project structure.
+
+Project Preset:
+A Project Preset stores standard settings.
+
+Render Preset Library:
+A Render Preset Library stores rendering configurations.
+
+Color Pipeline:
+A Color Pipeline standardizes color workflows.
+
+Linear Workflow:
+A Linear Workflow ensures physically accurate color calculations.
+
+ACES Workflow:
+An ACES Workflow standardizes color management.
+
+Display Device:
+A Display Device defines output calibration.
+
+Monitor Calibration:
+Monitor Calibration ensures color accuracy.
+
+Reference Render:
+A Reference Render serves as a visual benchmark.
+
+Turnaround Sheet:
+A Turnaround Sheet shows a model from multiple views.
+
+Model Sheet:
+A Model Sheet documents character proportions.
+
+Scale Reference:
+A Scale Reference ensures consistent dimensions.
+
+Scene Scale:
+Scene Scale defines world measurement units.
+
+Metric Units:
+Metric Units use meters and centimeters.
+
+Imperial Units:
+Imperial Units use feet and inches.
+
+Unit Conversion:
+Unit Conversion translates measurements between systems.
+
+Reference Collection:
+A Reference Collection stores guide assets.
+
+Blockout Model:
+A Blockout Model defines rough proportions.
+
+Proxy Geometry:
+Proxy Geometry represents complex assets efficiently.
+
+Placeholder Asset:
+A Placeholder Asset temporarily fills missing content.
+
+Visual Target:
+A Visual Target defines the intended appearance.
+
+Technical Target:
+A Technical Target defines performance requirements.
+
+Art Direction:
+Art Direction guides visual decisions.
+
+Style Guide:
+A Style Guide documents artistic standards.
+
+Consistency Check:
+A Consistency Check verifies uniform quality.
+
+Scene Benchmark:
+A Scene Benchmark measures performance.
+
+Optimization Target:
+An Optimization Target defines performance goals.
+
+Frame Budget:
+A Frame Budget limits rendering time per frame.
+
+Memory Budget:
+A Memory Budget limits RAM usage.
+
+Streaming Budget:
+A Streaming Budget limits asset loading resources.
+
+LOD Transition:
+LOD Transition switches detail levels.
+
+Culling Distance:
+Culling Distance defines visibility limits.
+
+Visibility Set:
+A Visibility Set controls object visibility.
+
+Occluder Mesh:
+An Occluder Mesh improves culling performance.
+
+Collision Proxy:
+A Collision Proxy simplifies physics calculations.
+
+Physics Budget:
+A Physics Budget limits simulation complexity.
+
+Texture Streaming Pool:
+A Texture Streaming Pool manages loaded textures.
+
+Shader Complexity:
+Shader Complexity measures rendering cost.
+
+Material Consolidation:
+Material Consolidation reduces material count.
+
+Atlas Workflow:
+An Atlas Workflow combines textures efficiently.
+
+Baking Pipeline:
+A Baking Pipeline automates texture generation.
+
+Automation Script:
+An Automation Script performs repetitive tasks.
+
+Build Process:
+A Build Process prepares deliverable content.
+
+Deployment Package:
+A Deployment Package contains release assets.
+
+Asset Audit:
+An Asset Audit reviews project assets.
+
+Production Report:
+A Production Report summarizes project progress.
+
+Final Validation:
+Final Validation verifies release readiness.
+
+Release Candidate:
+A Release Candidate is a nearly finished version.
+
+Project Archive:
+A Project Archive stores completed production data.
+
+Knowledge Base:
+A Knowledge Base stores project information.
+
+Documentation Asset:
+A Documentation Asset explains workflows and standards.
+
+Pipeline Documentation:
+Pipeline Documentation records production procedures.
+
+Render Troubleshooting:
+Render Troubleshooting identifies and fixes rendering issues.
+
+Fireflies:
+Fireflies are bright noise artifacts in renders.
+
+Sampling Noise:
+Sampling Noise appears when insufficient samples are used.
+
+Denoiser:
+A Denoiser reduces render noise automatically.
+
+OIDN Denoiser:
+OIDN Denoiser uses Intel Open Image Denoise technology.
+
+OptiX Denoiser:
+OptiX Denoiser uses NVIDIA AI denoising.
+
+Temporal Denoising:
+Temporal Denoising uses information from multiple frames.
+
+Ghosting Artifact:
+A Ghosting Artifact appears due to motion inconsistencies.
+
+Flickering:
+Flickering occurs when animation frames vary unexpectedly.
+
+Shadow Acne:
+Shadow Acne creates unwanted shadow patterns.
+
+Z Fighting:
+Z Fighting occurs when surfaces overlap closely.
+
+Clipping Plane:
+A Clipping Plane limits visible geometry.
+
+Near Clipping:
+Near Clipping defines the closest visible distance.
+
+Far Clipping:
+Far Clipping defines the furthest visible distance.
+
+Viewport Clipping:
+Viewport Clipping affects editor visibility.
+
+Render Artifact:
+A Render Artifact is an unwanted visual defect.
+
+Texture Artifact:
+A Texture Artifact appears due to texture issues.
+
+Normal Artifact:
+A Normal Artifact results from incorrect normals.
+
+UV Artifact:
+A UV Artifact results from poor UV mapping.
+
+Compression Artifact:
+A Compression Artifact appears after image compression.
+
+Banding:
+Banding creates visible color transitions.
+
+Color Bleeding:
+Color Bleeding occurs when colors leak into nearby areas.
+
+Light Leak:
+A Light Leak allows light through unintended areas.
+
+Shadow Leak:
+A Shadow Leak causes unrealistic illumination.
+
+Mesh Intersection:
+Mesh Intersection occurs when geometry overlaps.
+
+Topology Error:
+A Topology Error breaks mesh integrity.
+
+Broken Normals:
+Broken Normals produce incorrect shading.
+
+Inverted Normals:
+Inverted Normals face the wrong direction.
+
+Non-Manifold Geometry:
+Non-Manifold Geometry contains invalid topology.
+
+Ngon Face:
+An Ngon Face contains more than four vertices.
+
+Triangle Fan:
+A Triangle Fan consists of connected triangles around a center.
+
+Pole Vertex:
+A Pole Vertex connects many edges.
+
+Pinching:
+Pinching creates shading distortions.
+
+Stretching Artifact:
+A Stretching Artifact distorts geometry or textures.
+
+Subdivision Artifact:
+A Subdivision Artifact results from poor topology.
+
+Boolean Artifact:
+A Boolean Artifact appears after boolean operations.
+
+Shading Artifact:
+A Shading Artifact affects surface appearance.
+
+Render Validation:
+Render Validation confirms image quality.
+
+Animation Validation:
+Animation Validation verifies motion quality.
+
+Rig Validation:
+Rig Validation verifies rig functionality.
+
+Weight Validation:
+Weight Validation checks skinning accuracy.
+
+Export Validation:
+Export Validation ensures compatibility.
+
+Engine Compatibility:
+Engine Compatibility ensures assets work in target engines.
+
+Unreal Pipeline:
+An Unreal Pipeline prepares assets for Unreal Engine.
+
+Unity Pipeline:
+A Unity Pipeline prepares assets for Unity.
+
+Godot Pipeline:
+A Godot Pipeline prepares assets for Godot Engine.
+
+Skeleton Compatibility:
+Skeleton Compatibility ensures animation transferability.
+
+Root Bone:
+A Root Bone serves as the hierarchy base.
+
+Humanoid Mapping:
+Humanoid Mapping aligns skeleton structures.
+
+Retarget Profile:
+A Retarget Profile defines animation transfer settings.
+
+Animation Blueprint:
+An Animation Blueprint controls character animation logic.
+
+Blend Space:
+A Blend Space blends multiple animations.
+
+State Machine:
+A State Machine controls animation transitions.
+
+Locomotion System:
+A Locomotion System manages movement animations.
+
+Animation Event:
+An Animation Event triggers actions during playback.
+
+Animation Notify:
+An Animation Notify executes events at specific frames.
+
+Character Controller:
+A Character Controller manages player movement.
+
+Collision Capsule:
+A Collision Capsule defines character collisions.
+
+Physics Asset:
+A Physics Asset controls physical interactions.
+
+Ragdoll Setup:
+A Ragdoll Setup enables physics-driven characters.
+
+Socket Attachment:
+A Socket Attachment connects objects to bones.
+
+Weapon Socket:
+A Weapon Socket defines attachment points.
+
+Facial Animation:
+Facial Animation controls character expressions.
+
+Blendshape Animation:
+Blendshape Animation uses shape key deformations.
+
+Corrective Shape:
+A Corrective Shape fixes deformation issues.
+
+Expression Library:
+An Expression Library stores facial poses.
+
+Lip Sync:
+Lip Sync synchronizes mouth movement with audio.
+
+Phoneme Shape:
+A Phoneme Shape represents speech sounds.
+
+Eye Tracking:
+Eye Tracking controls eye movement.
+
+Look At System:
+A Look At System rotates characters toward targets.
+
+Crowd System:
+A Crowd System manages many characters.
+
+Agent Simulation:
+Agent Simulation controls autonomous entities.
+
+Navigation Mesh:
+A Navigation Mesh defines walkable areas.
+
+Pathfinding:
+Pathfinding calculates movement routes.
+
+AI Character:
+An AI Character acts autonomously.
+
+Interactive Prop:
+An Interactive Prop responds to user actions.
+
+Destructible Asset:
+A Destructible Asset can break apart.
+
+Gameplay Asset:
+A Gameplay Asset contributes to player interaction.
+
+Cinematic Asset:
+A Cinematic Asset supports cutscenes.
+
+Realtime Cinematic:
+A Realtime Cinematic renders during gameplay.
+
+Virtual Production:
+Virtual Production combines real and digital filmmaking.
+
+LED Volume:
+An LED Volume displays virtual environments.
+
+Camera Tracking:
+Camera Tracking records real camera movement.
+
+Motion Capture Cleanup:
+Motion Capture Cleanup refines recorded data.
+
+Asset Metadata:
+Asset Metadata stores descriptive information about an asset.
+
+Asset Thumbnail:
+An Asset Thumbnail provides a visual preview.
+
+Asset Catalog:
+An Asset Catalog organizes reusable content.
+
+Asset Version:
+An Asset Version identifies a specific revision.
+
+Asset Dependency Graph:
+An Asset Dependency Graph tracks relationships between assets.
+
+Asset Migration:
+Asset Migration transfers assets between projects.
+
+Library Override:
+A Library Override allows editing linked assets.
+
+Linked Character:
+A Linked Character is referenced from an external file.
+
+Linked Environment:
+A Linked Environment is loaded from an external source.
+
+Shot File Workflow:
+A Shot File Workflow separates scenes into production units.
+
+Master Scene:
+A Master Scene coordinates project-wide assets.
+
+Sequence File:
+A Sequence File contains multiple shots.
+
+Render Layer:
+A Render Layer isolates parts of a scene for rendering.
+
+View Layer Override:
+A View Layer Override customizes render behavior.
+
+Collection Exclusion:
+Collection Exclusion removes collections from evaluation.
+
+Holdout Material:
+A Holdout Material masks objects during rendering.
+
+Shadow Catcher:
+A Shadow Catcher records shadows on invisible surfaces.
+
+Cryptomatte ID:
+A Cryptomatte ID uniquely identifies render elements.
+
+Render Pass Extraction:
+Render Pass Extraction separates rendering components.
+
+Beauty Pass:
+A Beauty Pass contains the final combined render.
+
+Diffuse Direct Pass:
+A Diffuse Direct Pass stores direct diffuse lighting.
+
+Diffuse Indirect Pass:
+A Diffuse Indirect Pass stores bounced diffuse lighting.
+
+Glossy Direct Pass:
+A Glossy Direct Pass stores direct reflections.
+
+Glossy Indirect Pass:
+A Glossy Indirect Pass stores indirect reflections.
+
+Transmission Direct Pass:
+A Transmission Direct Pass stores direct refractions.
+
+Transmission Indirect Pass:
+A Transmission Indirect Pass stores indirect refractions.
+
+Volume Direct Pass:
+A Volume Direct Pass stores direct volume lighting.
+
+Volume Indirect Pass:
+A Volume Indirect Pass stores indirect volume lighting.
+
+Mist Workflow:
+A Mist Workflow uses depth-based atmospheric effects.
+
+Depth Composite:
+A Depth Composite uses distance information in compositing.
+
+Z Depth:
+Z Depth measures distance from the camera.
+
+Depth Of Field:
+Depth Of Field simulates camera focus blur.
+
+Focus Object:
+A Focus Object determines focal distance.
+
+Focus Distance:
+Focus Distance controls sharpness range.
+
+Aperture Blade:
+An Aperture Blade affects bokeh shape.
+
+F Stop:
+F Stop controls depth of field strength.
+
+Camera Sensor:
+A Camera Sensor determines image capture size.
+
+Sensor Fit:
+Sensor Fit controls sensor framing behavior.
+
+Focal Length:
+Focal Length controls field of view.
+
+Camera Shift:
+Camera Shift offsets the viewing frame.
+
+Safe Areas:
+Safe Areas mark important screen regions.
+
+Camera Rig:
+A Camera Rig controls cinematic movement.
+
+Dolly Movement:
+Dolly Movement moves the camera through space.
+
+Crane Movement:
+Crane Movement simulates vertical camera travel.
+
+Orbit Camera:
+An Orbit Camera rotates around a target.
+
+Tracking Camera:
+A Tracking Camera follows a moving object.
+
+Handheld Motion:
+Handheld Motion simulates natural camera shake.
+
+Camera Constraint Rig:
+A Camera Constraint Rig automates camera behavior.
+
+Storyboard Camera:
+A Storyboard Camera visualizes planned shots.
+
+Shot Composition:
+Shot Composition arranges visual elements.
+
+Rule Of Thirds:
+The Rule Of Thirds divides a frame into balanced sections.
+
+Leading Lines:
+Leading Lines guide viewer attention.
+
+Silhouette Readability:
+Silhouette Readability improves visual clarity.
+
+Visual Hierarchy:
+Visual Hierarchy directs viewer focus.
+
+Foreground Element:
+A Foreground Element appears near the camera.
+
+Midground Element:
+A Midground Element occupies the central depth area.
+
+Background Element:
+A Background Element appears furthest from the camera.
+
+Environmental Storytelling:
+Environmental Storytelling conveys narrative through scenes.
+
+Mood Lighting:
+Mood Lighting establishes emotional atmosphere.
+
+Color Harmony:
+Color Harmony creates pleasing color relationships.
+
+Complementary Colors:
+Complementary Colors sit opposite on the color wheel.
+
+Analogous Colors:
+Analogous Colors are adjacent on the color wheel.
+
+Warm Lighting:
+Warm Lighting uses orange and yellow tones.
+
+Cool Lighting:
+Cool Lighting uses blue and green tones.
+
+Visual Contrast:
+Visual Contrast highlights important elements.
+
+Shape Language:
+Shape Language communicates ideas through forms.
+
+Design Iteration:
+Design Iteration refines concepts over time.
+
+Production Ready:
+Production Ready indicates an asset meets requirements.
+
+Technical Artist:
+A Technical Artist bridges art and technology.
+
+Environment Artist:
+An Environment Artist creates virtual worlds.
+
+Character Artist:
+A Character Artist creates digital characters.
+
+Lighting Artist:
+A Lighting Artist designs scene illumination.
+
+Look Development Artist:
+A Look Development Artist refines materials and rendering.
+
+Rigging Artist:
+A Rigging Artist builds animation controls.
+
+Animator:
+An Animator creates motion and performance.
+
+Pipeline Technical Director:
+A Pipeline Technical Director develops production workflows.
+
+Render Wrangler:
+A Render Wrangler manages rendering operations.
+
+Art Lead:
+An Art Lead oversees artistic quality.
+
+Creative Director:
+A Creative Director defines the overall vision.
+
+Production Pipeline:
+A Production Pipeline organizes content creation.
+
+Digital Asset Management:
+Digital Asset Management organizes production resources.
+
+Knowledge Transfer:
+Knowledge Transfer shares expertise across teams.
+
+Project Handoff:
+A Project Handoff transfers responsibility between teams.
+
+Final Asset Package:
+A Final Asset Package contains approved deliverables.
+
+Archive Version:
+An Archive Version preserves completed work.
+
+Long Term Storage:
+Long Term Storage preserves project data for future use.
