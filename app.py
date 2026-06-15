@@ -1,8 +1,10 @@
 import streamlit as st
 import chromadb
+from openai import OpenAI
 
-
-
+client_openai = OpenAI(
+    api_key=st.secrets["OPENAI_API_KEY"]
+)
 
 st.set_page_config(
     page_title="Blender AI Assistant",
@@ -10,7 +12,6 @@ st.set_page_config(
 )
 
 st.title("🤖 Blender AI Assistant")
-st.write("TEST")
 st.caption("RAG Tabanlı Blender Dokümantasyon Asistanı")
 
 mode = st.radio(
@@ -39,19 +40,7 @@ try:
                 n_results=1
             )
 
-            # Güvenli doküman alma
-            context = ""
-
-            if (
-                "documents" in results
-                and len(results["documents"]) > 0
-                and len(results["documents"][0]) > 0
-            ):
-                context = results["documents"][0][0]
-
-            else:
-                st.error("Doküman bulunamadı.")
-                st.stop()
+            context = results["documents"][0][0]
 
             if mode == "Saf RAG":
 
@@ -60,12 +49,14 @@ try:
             else:
 
                 prompt = f"""
-Aşağıdaki Blender dokümanını kullanarak cevap ver.
+Sen Blender konusunda uzman bir asistansın.
+
+Aşağıdaki dokümanı kullanarak cevap ver.
 
 Doküman:
 {context}
 
-Soru:
+Kullanıcı Sorusu:
 {question}
 
 Türkçe ve açıklayıcı cevap ver.
