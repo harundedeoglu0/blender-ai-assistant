@@ -1,12 +1,13 @@
 import streamlit as st
 import chromadb
 from openai import OpenAI
-from sentence_transformers import SentenceTransformer
 
+# OpenAI
 client_openai = OpenAI(
     api_key=st.secrets["OPENAI_API_KEY"]
 )
 
+# Sayfa
 st.set_page_config(
     page_title="Blender AI Assistant",
     page_icon="🤖"
@@ -15,33 +16,41 @@ st.set_page_config(
 st.title("🤖 Blender AI Assistant")
 st.caption("RAG Tabanlı Blender Dokümantasyon Asistanı")
 
+# Mod seçimi
 mode = st.radio(
     "Çalışma Modu",
     ["Saf RAG", "RAG + GPT"]
 )
 
+# Sohbet geçmişi
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
 try:
 
+    # ChromaDB
     client_db = chromadb.PersistentClient(path="vector_db")
 
-try:
-    collection = client_db.get_collection("blender_docs")
-except:
+    try:
+        collection = client_db.get_collection("blender_docs")
 
-    collection = client_db.create_collection("blender_docs")
+    except:
 
-    with open("data/blender_docs.txt", "r", encoding="utf-8") as f:
-        docs = f.read().split("\n\n")
+        st.warning("Veritabanı oluşturuluyor...")
 
-    for i, doc in enumerate(docs):
-        if doc.strip():
-            collection.add(
-                documents=[doc],
-                ids=[str(i)]
-            )
+        collection = client_db.create_collection("blender_docs")
+
+        with open("data/blender_docs.txt", "r", encoding="utf-8") as f:
+            docs = f.read().split("\n\n")
+
+        for i, doc in enumerate(docs):
+
+            if doc.strip():
+
+                collection.add(
+                    documents=[doc],
+                    ids=[str(i)]
+                )
 
     st.success("Sistem hazır.")
 
@@ -49,7 +58,10 @@ except:
 
     if st.button("Sor"):
 
-        if question.strip():
+        if question.strip() == "":
+            st.warning("Lütfen soru giriniz.")
+
+        else:
 
             results = collection.query(
                 query_texts=[question],
@@ -58,10 +70,12 @@ except:
 
             context = results["documents"][0][0]
 
+            # SAF RAG
             if mode == "Saf RAG":
 
                 answer = context
 
+            # RAG + GPT
             else:
 
                 prompt = f"""
@@ -72,7 +86,7 @@ Aşağıdaki dokümanı kullanarak cevap ver.
 Doküman:
 {context}
 
-Kullanıcı Sorusu:
+Soru:
 {question}
 
 Türkçe ve açıklayıcı cevap ver.
@@ -119,4 +133,5 @@ Türkçe ve açıklayıcı cevap ver.
             st.divider()
 
 except Exception as e:
+
     st.exception(e)
