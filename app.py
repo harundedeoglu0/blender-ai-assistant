@@ -2,12 +2,10 @@ import streamlit as st
 import chromadb
 from openai import OpenAI
 
-# OpenAI API Key
 client_openai = OpenAI(
-     api_key=st.secrets["OPENAI_API_KEY"]
+    api_key=st.secrets["OPENAI_API_KEY"]
 )
 
-# Sayfa ayarları
 st.set_page_config(
     page_title="Blender AI Assistant",
     page_icon="🤖"
@@ -16,13 +14,11 @@ st.set_page_config(
 st.title("🤖 Blender AI Assistant")
 st.caption("RAG Tabanlı Blender Dokümantasyon Asistanı")
 
-# Mod seçimi
 mode = st.radio(
     "Çalışma Modu",
     ["Saf RAG", "RAG + GPT"]
 )
 
-# Sohbet geçmişi
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
@@ -37,54 +33,58 @@ try:
 
     if st.button("Sor"):
 
-        if question.strip() == "":
-            st.warning("Lütfen bir soru giriniz.")
-
-        else:
+        if question.strip():
 
             results = collection.query(
                 query_texts=[question],
                 n_results=1
             )
 
-            context = results["documents"][0][0]
+            # Güvenli doküman alma
+            context = ""
 
-            # SAF RAG
+            if (
+                "documents" in results
+                and len(results["documents"]) > 0
+                and len(results["documents"][0]) > 0
+            ):
+                context = results["documents"][0][0]
+
+            else:
+                st.error("Doküman bulunamadı.")
+                st.stop()
+
             if mode == "Saf RAG":
 
                 answer = context
 
-            # RAG + GPT
             else:
 
                 prompt = f"""
-Sen Blender konusunda uzman bir asistansın.
-
-Aşağıdaki dokümanı kullanarak cevap ver.
+Aşağıdaki Blender dokümanını kullanarak cevap ver.
 
 Doküman:
 {context}
 
-Kullanıcı Sorusu:
+Soru:
 {question}
 
 Türkçe ve açıklayıcı cevap ver.
 """
 
                 response = client_openai.chat.completions.create(
-    model="gpt-4o-mini",
-    messages=[
-        {
-            "role": "system",
-            "content": "Sen Blender konusunda uzman bir asistansın."
-        },
-        {
-            "role": "user",
-            "content": prompt
-        }
-    ],
-    temperature=0.3
-)
+                    model="gpt-4o-mini",
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "Sen Blender konusunda uzman bir asistansın."
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt
+                        }
+                    ]
+                )
 
                 answer = response.choices[0].message.content
 
@@ -113,5 +113,4 @@ Türkçe ve açıklayıcı cevap ver.
             st.divider()
 
 except Exception as e:
-    import traceback
-    st.code(traceback.format_exc())
+    st.exception(e)
