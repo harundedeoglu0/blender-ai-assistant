@@ -1,6 +1,7 @@
 import streamlit as st
 import chromadb
 from openai import OpenAI
+from sentence_transformers import SentenceTransformer
 
 client_openai = OpenAI(
     api_key=st.secrets["OPENAI_API_KEY"]
@@ -25,7 +26,22 @@ if "messages" not in st.session_state:
 try:
 
     client_db = chromadb.PersistentClient(path="vector_db")
+
+try:
     collection = client_db.get_collection("blender_docs")
+except:
+
+    collection = client_db.create_collection("blender_docs")
+
+    with open("data/blender_docs.txt", "r", encoding="utf-8") as f:
+        docs = f.read().split("\n\n")
+
+    for i, doc in enumerate(docs):
+        if doc.strip():
+            collection.add(
+                documents=[doc],
+                ids=[str(i)]
+            )
 
     st.success("Sistem hazır.")
 
