@@ -10,6 +10,7 @@ st.set_page_config(
 )
 
 st.title("🤖 Blender AI Assistant")
+st.write("TEST")
 st.caption("RAG Tabanlı Blender Dokümantasyon Asistanı")
 
 mode = st.radio(
