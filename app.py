@@ -72,14 +72,19 @@ Türkçe ve açıklayıcı cevap ver.
 """
 
                 response = client_openai.chat.completions.create(
-                    model="gpt-4o-mini",
-                    messages=[
-                        {
-                            "role": "user",
-                            "content": prompt
-                        }
-                    ]
-                )
+    model="gpt-4o-mini",
+    messages=[
+        {
+            "role": "system",
+            "content": "Sen Blender konusunda uzman bir asistansın."
+        },
+        {
+            "role": "user",
+            "content": prompt
+        }
+    ],
+    temperature=0.3
+)
 
                 answer = response.choices[0].message.content
 
@@ -108,4 +113,5 @@ Türkçe ve açıklayıcı cevap ver.
             st.divider()
 
 except Exception as e:
-    st.error(f"Hata: {e}")
+    import traceback
+    st.code(traceback.format_exc())
