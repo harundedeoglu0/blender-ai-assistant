@@ -1,10 +1,8 @@
 import streamlit as st
 import chromadb
-from openai import OpenAI
 
-client_openai = OpenAI(
-    api_key=st.secrets["OPENAI_API_KEY"]
-)
+
+
 
 st.set_page_config(
     page_title="Blender AI Assistant",
